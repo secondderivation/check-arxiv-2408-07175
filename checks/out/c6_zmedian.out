@@ -1,0 +1,9 @@
+median redshift of the matched SN per sample, by column (DES5Y file: zHD zCMB zHEL; Pantheon+: _P), printed Table 1 value last
+DES5Y   N=145 zHD=0.3296 zCMB=0.3296 zHEL=0.3306 zHD_P=0.3297 zCMB_P=0.3296 zHEL_P=0.3306  lower-median zHD=0.3296  printed 0.329
+FOUND   N=118 zHD=0.0436 zCMB=0.0432 zHEL=0.0430 zHD_P=0.0436 zCMB_P=0.0432 zHEL_P=0.0430  lower-median zHD=0.0435  printed 0.043
+CFA3S   N= 14 zHD=0.0343 zCMB=0.0335 zHEL=0.0333 zHD_P=0.0343 zCMB_P=0.0335 zHEL_P=0.0333  lower-median zHD=0.0337  printed 0.037
+CFA3K   N= 27 zHD=0.0339 zCMB=0.0331 zHEL=0.0340 zHD_P=0.0339 zCMB_P=0.0331 zHEL_P=0.0340  lower-median zHD=0.0339  printed 0.033
+CFA4P2  N= 18 zHD=0.0381 zCMB=0.0370 zHEL=0.0373 zHD_P=0.0381 zCMB_P=0.0370 zHEL_P=0.0373  lower-median zHD=0.0380  printed 0.038
+CFA4P3  N=  3 zHD=0.0390 zCMB=0.0387 zHEL=0.0381 zHD_P=0.0390 zCMB_P=0.0387 zHEL_P=0.0381  lower-median zHD=0.0390  printed 0.033
+CSP     N=  7 zHD=0.0444 zCMB=0.0440 zHEL=0.0452 zHD_P=0.0444 zCMB_P=0.0440 zHEL_P=0.0452  lower-median zHD=0.0444  printed 0.038
+All low z zHD=0.0387 zCMB=0.0380 zHEL=0.0382  printed 0.038

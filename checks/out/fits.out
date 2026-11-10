@@ -1,0 +1,132 @@
+== C1 counts
+  Pantheon+ entries: 1701; IDSURVEY 10 (DES Y3): 203; unique CIDs: 1543
+  DES5Y SN: 1829; IDSURVEY 10: 1635 with zHD 0.05962..1.12132; others: 194 with zHD max 0.09293
+  DES5Y low-z by IDSURVEY: {5: np.int64(8), 63: np.int64(15), 64: np.int64(31), 65: np.int64(19), 66: np.int64(3), 150: np.int64(118)}
+  DES5Y MUERR_FINAL > 1: 75; zHD outside [0.02, 1.2]: 0
+  after cuts: Pantheon+ 1417 (printed 1417), DES5Y 1754 (printed 1754)
+
+== New check (Addendum A1): chi2 at the printed best-fit parameters, both conventions
+  Pantheon+                        (1+zHEL): LCDM (0.333,) chi2 1258.197 (printed 1258.4); w0wa (0.327, -1.01, 0.18) chi2 1258.160 (printed 1258.4)
+  Pantheon+                        (1+zHD): LCDM (0.333,) chi2 1258.444 (printed 1258.4); w0wa (0.327, -1.01, 0.18) chi2 1258.382 (printed 1258.4)
+  DES5Y                            (1+zHEL): LCDM (0.349,) chi2 1639.419 (printed 1639.6); w0wa (0.474, -0.54, -6.56) chi2 1631.431 (printed 1632.2)
+  DES5Y                            (1+zHD): LCDM (0.349,) chi2 1639.614 (printed 1639.6); w0wa (0.474, -0.54, -6.56) chi2 1632.147 (printed 1632.2)
+  DES5Y shifted (IDSURVEY != 10)   (1+zHEL): LCDM (0.31,) chi2 1634.852 (printed 1635.7); w0wa (0.426, -1.068, -2.63) chi2 1632.602 (printed 1633.4)
+  DES5Y shifted (IDSURVEY != 10)   (1+zHD): LCDM (0.31,) chi2 1635.672 (printed 1635.7); w0wa (0.426, -1.068, -2.63) chi2 1633.330 (printed 1633.4)
+
+######## convention (1+zHD) (paper's, Addendum A1)
+
+== Pantheon+: N = 1417
+  chi2 at the Planck point (Omega_m = 0.3135): 1259.522   (offset M' = 23.7971)
+  LCDM best fit: Omega_m = 0.3335, chi2 = 1258.443; Delta chi2 (Planck - LCDM) = 1.079
+  LCDM Omega_m: posterior mean 0.3342 +- 0.0195 (sd); profile half-width (Delta chi2 = 1) 0.0194
+  w0waCDM best fit: Omega_m = 0.1858, w0 = -0.8483, wa = 0.8076, chi2 = 1258.244
+    the five minima: 1258.244 at (0.186, -0.848, 0.808); 1258.244 at (0.186, -0.848, 0.808); 1258.244 at (0.186, -0.848, 0.808); 1258.244 at (0.186, -0.848, 0.808); 1258.244 at (0.186, -0.848, 0.808)
+  Delta chi2: Planck - w0wa = 1.279; LCDM - w0wa = 0.199
+  sigma: Planck vs LCDM fit k=1 1.04; Planck vs w0wa k=3 0.34 (k=2 0.63, k=1 1.13, sqrt 1.13); LCDM vs w0wa k=2 0.12 (k=1 0.45, sqrt 0.45)
+  LCDM Omega_m vs Planck: |mean - 0.3135|/sqrt(sd^2 + 0.0081^2) = 0.98; best fit: 0.95; /sd only 1.06
+  w0waCDM best fit inside the printed prior box: chi2 = 1258.550 at (0.3734, -1.0575, -0.4000)
+  variant (1+zHEL): Planck 1259.380, at LCDM best fit 1258.194, at w0wa best fit 1258.029
+
+== DES5Y: N = 1754
+  chi2 at the Planck point (Omega_m = 0.3135): 1644.539   (offset M' = 23.8275)
+  LCDM best fit: Omega_m = 0.3498, chi2 = 1639.611; Delta chi2 (Planck - LCDM) = 4.927
+  LCDM Omega_m: posterior mean 0.3504 +- 0.0168 (sd); profile half-width (Delta chi2 = 1) 0.0167
+  w0waCDM best fit: Omega_m = 0.4866, w0 = -0.4318, wa = -7.9962, chi2 = 1632.000
+    the five minima: 1632.000 at (0.487, -0.432, -7.996); 1632.000 at (0.487, -0.432, -7.996); 1632.000 at (0.487, -0.432, -7.996); 1632.000 at (0.487, -0.432, -7.996); 1632.000 at (0.487, -0.432, -7.995)
+  Delta chi2: Planck - w0wa = 12.539; LCDM - w0wa = 7.611
+  sigma: Planck vs LCDM fit k=1 2.22; Planck vs w0wa k=3 2.76 (k=2 3.11, k=1 3.54, sqrt 3.54); LCDM vs w0wa k=2 2.29 (k=1 2.76, sqrt 2.76)
+  LCDM Omega_m vs Planck: |mean - 0.3135|/sqrt(sd^2 + 0.0081^2) = 1.98; best fit: 1.95; /sd only 2.20
+  w0waCDM best fit inside the printed prior box: chi2 = 1632.000 at (0.4866, -0.4318, -7.9954)
+  variant (1+zHEL): Planck 1644.881, at LCDM best fit 1639.404, at w0wa best fit 1631.262
+
+== DES5Y shifted (IDSURVEY != 10): N = 1754
+  chi2 at the Planck point (Omega_m = 0.3135): 1635.720   (offset M' = 23.8211)
+  LCDM best fit: Omega_m = 0.3101, chi2 = 1635.672; Delta chi2 (Planck - LCDM) = 0.048
+  LCDM Omega_m: posterior mean 0.3106 +- 0.0157 (sd); profile half-width (Delta chi2 = 1) 0.0156
+  w0waCDM best fit: Omega_m = 0.4571, w0 = -0.9014, wa = -5.2711, chi2 = 1632.782
+    the five minima: 1632.782 at (0.457, -0.901, -5.271); 1632.782 at (0.457, -0.901, -5.271); 1632.782 at (0.457, -0.901, -5.271); 1632.782 at (0.457, -0.901, -5.271); 1632.782 at (0.457, -0.901, -5.272)
+  Delta chi2: Planck - w0wa = 2.938; LCDM - w0wa = 2.890
+  sigma: Planck vs LCDM fit k=1 0.22; Planck vs w0wa k=3 0.84 (k=2 1.20, k=1 1.71, sqrt 1.71); LCDM vs w0wa k=2 1.19 (k=1 1.70, sqrt 1.70)
+  LCDM Omega_m vs Planck: |mean - 0.3135|/sqrt(sd^2 + 0.0081^2) = 0.16; best fit: 0.19; /sd only 0.18
+  variant (1+zHEL): Planck 1634.846, at LCDM best fit 1634.851, at w0wa best fit 1631.986
+
+== DES5Y shifted (zHD < 0.1): N = 1754
+  chi2 at the Planck point (Omega_m = 0.3135): 1635.217   (offset M' = 23.8211)
+  LCDM best fit: Omega_m = 0.3099, chi2 = 1635.165; Delta chi2 (Planck - LCDM) = 0.052
+  LCDM Omega_m: posterior mean 0.3105 +- 0.0157 (sd); profile half-width (Delta chi2 = 1) 0.0157
+  w0waCDM best fit: Omega_m = 0.4573, w0 = -0.9053, wa = -5.2655, chi2 = 1632.262
+    the five minima: 1632.262 at (0.457, -0.905, -5.266); 1632.262 at (0.457, -0.905, -5.266); 1632.262 at (0.457, -0.905, -5.265); 1632.262 at (0.457, -0.905, -5.265); 1632.262 at (0.457, -0.905, -5.266)
+  Delta chi2: Planck - w0wa = 2.956; LCDM - w0wa = 2.904
+  sigma: Planck vs LCDM fit k=1 0.23; Planck vs w0wa k=3 0.84 (k=2 1.21, k=1 1.72, sqrt 1.72); LCDM vs w0wa k=2 1.19 (k=1 1.70, sqrt 1.70)
+  LCDM Omega_m vs Planck: |mean - 0.3135|/sqrt(sd^2 + 0.0081^2) = 0.17; best fit: 0.20; /sd only 0.19
+  variant (1+zHEL): Planck 1634.344, at LCDM best fit 1634.348, at w0wa best fit 1631.475
+
+== M1 DES-Dovekie: N = 1820
+  chi2 at the Planck point (Omega_m = 0.3135): 1632.793   (offset M' = 23.8267)
+  LCDM best fit: Omega_m = 0.3287, chi2 = 1631.767; Delta chi2 (Planck - LCDM) = 1.026
+  LCDM Omega_m: posterior mean 0.3293 +- 0.0152 (sd); profile half-width (Delta chi2 = 1) 0.0152
+  w0waCDM best fit: Omega_m = 0.4645, w0 = -0.5648, wa = -6.6404, chi2 = 1626.151
+    the five minima: 1626.151 at (0.464, -0.565, -6.640); 1626.151 at (0.464, -0.565, -6.640); 1626.151 at (0.464, -0.565, -6.640); 1626.151 at (0.464, -0.565, -6.640); 1626.151 at (0.464, -0.565, -6.640)
+  Delta chi2: Planck - w0wa = 6.641; LCDM - w0wa = 5.616
+  sigma: Planck vs LCDM fit k=1 1.01; Planck vs w0wa k=3 1.73 (k=2 2.10, k=1 2.58, sqrt 2.58); LCDM vs w0wa k=2 1.88 (k=1 2.37, sqrt 2.37)
+  LCDM Omega_m vs Planck: |mean - 0.3135|/sqrt(sd^2 + 0.0081^2) = 0.91; best fit: 0.88; /sd only 1.03
+  variant (1+zHEL): Planck 1632.666, at LCDM best fit 1631.431, at w0wa best fit 1625.337
+
+######## convention (1+zHEL) (Pantheon+/DES/Cobaya)
+
+== Pantheon+: N = 1417
+  chi2 at the Planck point (Omega_m = 0.3135): 1259.380   (offset M' = 23.7968)
+  LCDM best fit: Omega_m = 0.3345, chi2 = 1258.191; Delta chi2 (Planck - LCDM) = 1.188
+  LCDM Omega_m: posterior mean 0.3352 +- 0.0196 (sd); profile half-width (Delta chi2 = 1) 0.0195
+  w0waCDM best fit: Omega_m = 0.1755, w0 = -0.8293, wa = 0.7799, chi2 = 1258.018
+    the five minima: 1258.018 at (0.176, -0.829, 0.780); 1258.018 at (0.176, -0.829, 0.780); 1258.018 at (0.176, -0.829, 0.780); 1258.018 at (0.176, -0.829, 0.780); 1258.018 at (0.176, -0.829, 0.780)
+  Delta chi2: Planck - w0wa = 1.362; LCDM - w0wa = 0.173
+  sigma: Planck vs LCDM fit k=1 1.09; Planck vs w0wa k=3 0.37 (k=2 0.66, k=1 1.17, sqrt 1.17); LCDM vs w0wa k=2 0.10 (k=1 0.42, sqrt 0.42)
+  LCDM Omega_m vs Planck: |mean - 0.3135|/sqrt(sd^2 + 0.0081^2) = 1.03; best fit: 0.99; /sd only 1.11
+  w0waCDM best fit inside the printed prior box: chi2 = 1258.302 at (0.3688, -1.0397, -0.4000)
+  variant (1+zHD): Planck 1259.522, at LCDM best fit 1258.446, at w0wa best fit 1258.254
+
+== DES5Y: N = 1754
+  chi2 at the Planck point (Omega_m = 0.3135): 1644.881   (offset M' = 23.8264)
+  LCDM best fit: Omega_m = 0.3519, chi2 = 1639.389; Delta chi2 (Planck - LCDM) = 5.492
+  LCDM Omega_m: posterior mean 0.3525 +- 0.0169 (sd); profile half-width (Delta chi2 = 1) 0.0168
+  w0waCDM best fit: Omega_m = 0.4878, w0 = -0.4055, wa = -8.1326, chi2 = 1631.230
+    the five minima: 1631.230 at (0.488, -0.405, -8.133); 1631.230 at (0.488, -0.406, -8.133); 1631.230 at (0.488, -0.405, -8.133); 1631.230 at (0.488, -0.406, -8.132); 1631.230 at (0.488, -0.406, -8.132)
+  Delta chi2: Planck - w0wa = 13.651; LCDM - w0wa = 8.158
+  sigma: Planck vs LCDM fit k=1 2.34; Planck vs w0wa k=3 2.93 (k=2 3.27, k=1 3.69, sqrt 3.69); LCDM vs w0wa k=2 2.39 (k=1 2.86, sqrt 2.86)
+  LCDM Omega_m vs Planck: |mean - 0.3135|/sqrt(sd^2 + 0.0081^2) = 2.08; best fit: 2.05; /sd only 2.31
+  w0waCDM best fit inside the printed prior box: chi2 = 1631.230 at (0.4878, -0.4055, -8.1326)
+  variant (1+zHD): Planck 1644.539, at LCDM best fit 1639.627, at w0wa best fit 1632.032
+
+== DES5Y shifted (IDSURVEY != 10): N = 1754
+  chi2 at the Planck point (Omega_m = 0.3135): 1634.846   (offset M' = 23.8201)
+  LCDM best fit: Omega_m = 0.3120, chi2 = 1634.837; Delta chi2 (Planck - LCDM) = 0.010
+  LCDM Omega_m: posterior mean 0.3125 +- 0.0158 (sd); profile half-width (Delta chi2 = 1) 0.0158
+  w0waCDM best fit: Omega_m = 0.4583, w0 = -0.8763, wa = -5.4003, chi2 = 1631.955
+    the five minima: 1631.955 at (0.458, -0.876, -5.400); 1631.955 at (0.458, -0.876, -5.401); 1631.955 at (0.458, -0.876, -5.401); 1631.955 at (0.458, -0.876, -5.401); 1631.955 at (0.458, -0.876, -5.401)
+  Delta chi2: Planck - w0wa = 2.891; LCDM - w0wa = 2.882
+  sigma: Planck vs LCDM fit k=1 0.10; Planck vs w0wa k=3 0.83 (k=2 1.19, k=1 1.70, sqrt 1.70); LCDM vs w0wa k=2 1.18 (k=1 1.70, sqrt 1.70)
+  LCDM Omega_m vs Planck: |mean - 0.3135|/sqrt(sd^2 + 0.0081^2) = 0.05; best fit: 0.09; /sd only 0.06
+  variant (1+zHD): Planck 1635.720, at LCDM best fit 1635.687, at w0wa best fit 1632.814
+
+== DES5Y shifted (zHD < 0.1): N = 1754
+  chi2 at the Planck point (Omega_m = 0.3135): 1634.344   (offset M' = 23.8200)
+  LCDM best fit: Omega_m = 0.3118, chi2 = 1634.333; Delta chi2 (Planck - LCDM) = 0.011
+  LCDM Omega_m: posterior mean 0.3124 +- 0.0158 (sd); profile half-width (Delta chi2 = 1) 0.0157
+  w0waCDM best fit: Omega_m = 0.4585, w0 = -0.8801, wa = -5.3948, chi2 = 1631.444
+    the five minima: 1631.444 at (0.459, -0.880, -5.395); 1631.444 at (0.459, -0.880, -5.395); 1631.444 at (0.459, -0.880, -5.395); 1631.444 at (0.459, -0.880, -5.395); 1631.444 at (0.459, -0.880, -5.395)
+  Delta chi2: Planck - w0wa = 2.900; LCDM - w0wa = 2.889
+  sigma: Planck vs LCDM fit k=1 0.11; Planck vs w0wa k=3 0.83 (k=2 1.19, k=1 1.70, sqrt 1.70); LCDM vs w0wa k=2 1.19 (k=1 1.70, sqrt 1.70)
+  LCDM Omega_m vs Planck: |mean - 0.3135|/sqrt(sd^2 + 0.0081^2) = 0.06; best fit: 0.09; /sd only 0.07
+  variant (1+zHD): Planck 1635.217, at LCDM best fit 1635.180, at w0wa best fit 1632.293
+
+== M1 DES-Dovekie: N = 1820
+  chi2 at the Planck point (Omega_m = 0.3135): 1632.666   (offset M' = 23.8256)
+  LCDM best fit: Omega_m = 0.3303, chi2 = 1631.421; Delta chi2 (Planck - LCDM) = 1.246
+  LCDM Omega_m: posterior mean 0.3308 +- 0.0153 (sd); profile half-width (Delta chi2 = 1) 0.0152
+  w0waCDM best fit: Omega_m = 0.4657, w0 = -0.5389, wa = -6.7818, chi2 = 1625.308
+    the five minima: 1625.308 at (0.466, -0.539, -6.782); 1625.308 at (0.466, -0.539, -6.782); 1625.308 at (0.466, -0.539, -6.782); 1625.308 at (0.466, -0.539, -6.782); 1625.308 at (0.466, -0.539, -6.782)
+  Delta chi2: Planck - w0wa = 7.358; LCDM - w0wa = 6.112
+  sigma: Planck vs LCDM fit k=1 1.12; Planck vs w0wa k=3 1.87 (k=2 2.24, k=1 2.71, sqrt 2.71); LCDM vs w0wa k=2 1.99 (k=1 2.47, sqrt 2.47)
+  LCDM Omega_m vs Planck: |mean - 0.3135|/sqrt(sd^2 + 0.0081^2) = 1.00; best fit: 0.97; /sd only 1.14
+  variant (1+zHD): Planck 1632.793, at LCDM best fit 1631.778, at w0wa best fit 1626.179

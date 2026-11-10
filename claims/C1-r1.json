@@ -1,0 +1,11 @@
+{
+ "id": "C1",
+ "kind": "numeric",
+ "location": "l.198, 208, 232, 257-259",
+ "method": "Counts from the pinned public files under conventions.json cuts",
+ "text": "Sample definitions: Pantheon+ has 1701 entries with 203 DES Y3 SN; DES5Y has 1829 SN, 1635 DES SN (0.0596 < z < 1.12) and 194 at z < 0.1; the cuts 0.02 <= z_HD <= 1.2 and (DES5Y) delta m > 1 leave 1417 Pantheon+ entries and 1754 DES5Y SN.",
+ "rests_on": "Every fit and chi2 in the paper is on these samples; a different selection would move all of C2-C4 and C7",
+ "revision": 1,
+ "version": 3,
+ "committed_before_run": true
+}

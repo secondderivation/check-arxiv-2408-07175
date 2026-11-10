@@ -1,0 +1,62 @@
+C6 inputs: Pantheon+ entries 1701 ; DES Y3 rows (IDSURVEY 10) 203 ; Foundation rows (150) 179 ; DES5Y SN 1829
+  Foundation rows (printed '150 SN from the Foundation Survey', l.389): all 179 ; 0.02 <= zHD <= 1.2: 152 ; zHD > 0.01: 173 ; unique CIDs: 179
+  post_hoc diagnostic: Foundation rows with 0.02 <= zCMB <= 1.2: 150 ; whole Pantheon+ with that zCMB cut: 1407 (the paper's 1417 needs zHD)
+  Pantheon+ (CID, IDSURVEY) pairs with more than one entry in these surveys: 0
+
+== DES5Y, rule same_survey: 332 matched SN
+  sample        N z_med(DES) z_med(P+)     mean   error   disp   printed (N, z_med, mean +- error)
+  DES5Y       145      0.330     0.330  -0.0122  0.0056  0.067   (145, 0.329, -0.0122 +- 0.0006)
+  FOUND       118      0.044     0.044  -0.0508  0.0071  0.077   (118, 0.043, -0.0508 +- 0.0007)
+  CFA3S        14      0.034     0.034  -0.0344  0.0116  0.043   (14, 0.037, -0.0344 +- 0.0111)
+  CFA3K        27      0.034     0.034  -0.0616  0.0166  0.086   (27, 0.033, -0.0616 +- 0.0163)
+  CFA4P2       18      0.038     0.038  -0.0547  0.0202  0.086   (18, 0.038, -0.0547 +- 0.0196)
+  CFA4P3        3      0.039     0.039   0.0285  0.1064  0.184   (3, 0.033, 0.029 +- None)
+  CSP           7      0.044     0.044   0.0037  0.0224  0.059   (7, 0.038, 0.0036 +- 0.0207)
+  All low z   187      0.039     0.039  -0.0482  0.0058  0.079   (187, 0.038, -0.0482 +- 0.0057)
+  differential (all low z) - (DES): -0.0360 +- 0.0080  (4.5 scatter errors from zero; no cross-catalogue covariance); printed: -0.0482 - (-0.0122) = -0.0360
+  DES5Y low-z SN not matched (same survey): 7 ['2001ay', '2004gc', '2005hj', '2005ir', '2006ev', '2007R', '2007ob']
+    2001ay: in Pantheon+ as IDSURVEY []
+    2004gc: in Pantheon+ as IDSURVEY []
+    2005hj: in Pantheon+ as IDSURVEY [5]
+    2005ir: in Pantheon+ as IDSURVEY [5]
+    2006ev: in Pantheon+ as IDSURVEY [5]
+    2007R: in Pantheon+ as IDSURVEY []
+    2007ob: in Pantheon+ as IDSURVEY []
+
+== DES5Y, rule any_survey: 335 matched SN
+  sample        N z_med(DES) z_med(P+)     mean   error   disp   printed (N, z_med, mean +- error)
+  DES5Y       145      0.330     0.330  -0.0122  0.0056  0.067   (145, 0.329, -0.0122 +- 0.0006)
+  FOUND       118      0.044     0.044  -0.0508  0.0071  0.077   (118, 0.043, -0.0508 +- 0.0007)
+  CFA3S        14      0.034     0.034  -0.0374  0.0100  0.038   (14, 0.037, -0.0344 +- 0.0111)
+  CFA3K        30      0.034     0.034  -0.0508  0.0135  0.074   (27, 0.033, -0.0616 +- 0.0163)
+  CFA4P2       18      0.038     0.038  -0.0509  0.0211  0.090   (18, 0.038, -0.0547 +- 0.0196)
+  CFA4P3        3      0.039     0.039   0.0285  0.1064  0.184   (3, 0.033, 0.029 +- None)
+  CSP           7      0.044     0.044   0.0163  0.0223  0.059   (7, 0.038, 0.0036 +- 0.0207)
+  All low z   190      0.039     0.039  -0.0461  0.0056  0.078   (187, 0.038, -0.0482 +- 0.0057)
+  differential (all low z) - (DES): -0.0339 +- 0.0079  (4.3 scatter errors from zero; no cross-catalogue covariance); printed: -0.0482 - (-0.0122) = -0.0360
+  variant, inverse-variance weights (diagonal errors added): DES5Y mean -0.0107
+  variant, inverse-variance weights (diagonal errors added): All low z mean -0.0545
+
+== M1a DES-Dovekie, rule same_survey: 337 matched SN
+  sample        N z_med(DES) z_med(P+)     mean   error   disp   printed (N, z_med, mean +- error)
+  DES5Y       148      0.330     0.330  -0.0073  0.0060  0.073   
+  FOUND       117      0.043     0.043  -0.0510  0.0067  0.072   
+  CFA3S        15      0.035     0.035  -0.0000  0.0136  0.053   
+  CFA3K        26      0.034     0.034  -0.0611  0.0165  0.084   
+  CFA4P2       21      0.038     0.038  -0.0385  0.0162  0.074   
+  CFA4P3        3      0.039     0.039   0.0486  0.1137  0.197   
+  CSP           7      0.044     0.044  -0.0007  0.0244  0.065   
+  All low z   189      0.038     0.038  -0.0435  0.0056  0.077   
+  differential (all low z) - (DES): -0.0363 +- 0.0082  (4.4 scatter errors from zero; no cross-catalogue covariance); printed: -0.0482 - (-0.0122) = -0.0360
+
+== M1a DES-Dovekie, rule any_survey: 339 matched SN
+  sample        N z_med(DES) z_med(P+)     mean   error   disp   printed (N, z_med, mean +- error)
+  DES5Y       148      0.330     0.330  -0.0073  0.0060  0.073   
+  FOUND       117      0.043     0.043  -0.0510  0.0067  0.072   
+  CFA3S        15      0.035     0.035  -0.0015  0.0113  0.044   
+  CFA3K        28      0.035     0.035  -0.0495  0.0138  0.073   
+  CFA4P2       21      0.038     0.038  -0.0347  0.0186  0.085   
+  CFA4P3        3      0.039     0.039   0.0486  0.1137  0.197   
+  CSP           7      0.044     0.044   0.0120  0.0241  0.064   
+  All low z   191      0.038     0.038  -0.0413  0.0055  0.076   
+  differential (all low z) - (DES): -0.0340 +- 0.0082  (4.2 scatter errors from zero; no cross-catalogue covariance); printed: -0.0482 - (-0.0122) = -0.0360

@@ -1,0 +1,12 @@
+{
+ "id": "C7",
+ "kind": "numeric",
+ "location": "l.414-426, Fig. 5 legends, Fig. 6; l.563-567",
+ "method": "Same likelihood with the shifted data vector; best fits and grid posterior",
+ "text": "Impact of the offset: subtracting 0.04 mag from the DES5Y low-z sub-samples gives LCDM Omega_m 0.310 (chi2 1635.7) 'in near perfect agreement' with Planck; w0waCDM Omega_m 0.426, w0 -1.068, wa -2.63, chi2 1633.4, a chi2 reduction of 2.5 (text; 2.3 from the legends), 'no statistically significant preference'; the shifted DES5Y posterior is consistent with w0 = -1, wa = 0 and still skewed to high Omega_m.",
+ "rests_on": "Abstract: 'Systematics of this order can bring the DES5Y sample into good agreement with the Planck LCDM cosmology and Pantheon+'",
+ "revision": 2,
+ "version": 3,
+ "committed_before_run": false,
+ "revision_note": "Location only: figure numbers corrected to the TeX caption order (PROTOCOL Addendum A2). Statement, method and criteria unchanged from r1."
+}

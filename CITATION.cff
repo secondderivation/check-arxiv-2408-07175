@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "Cite the original paper first. If you use this check, cite it as below."
+title: "Check of arXiv:2408.07175v3: Evolving Dark Energy or Supernovae Systematics?"
+version: "0.1.0"
+authors:
+  - name: "Second Derivation"
+license: BSD-3-Clause
+references:
+  - type: article
+    title: "Evolving Dark Energy or Supernovae Systematics?"
+    authors:
+      - name: "G. Efstathiou"
+    identifiers:
+      - type: url
+        value: "https://arxiv.org/abs/2408.07175v3"

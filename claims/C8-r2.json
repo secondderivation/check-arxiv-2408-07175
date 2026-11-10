@@ -1,0 +1,12 @@
+{
+ "id": "C8",
+ "kind": "posterior",
+ "location": "Appendix A (l.648-658), Fig. 8",
+ "method": "Own DESI DR1 Gaussian BAO likelihood, alpha = c/(H0 r_d) marginalised (conventions.json bao), joint grid posteriors",
+ "text": "DESI DR1 BAO (r_d prior 147.31 +- 0.31): BAO alone shows a mild preference for evolving DE; DESI+Pantheon+: the Planck LCDM point touches the 1 sigma contours in all three projections; DESI+DES5Y: contours displaced, high Omega_m from DES5Y disfavoured by BAO, and the ~3 sigma evidence for dynamical DE in the lower panel is driven by DES5Y.",
+ "rests_on": "Conclusions l.556-557: 'DESI BAO combined with Pantheon+ SN are consistent with LCDM'",
+ "revision": 2,
+ "version": 3,
+ "committed_before_run": false,
+ "revision_note": "Location only: figure numbers corrected to the TeX caption order (PROTOCOL Addendum A2). Statement, method and criteria unchanged from r1."
+}

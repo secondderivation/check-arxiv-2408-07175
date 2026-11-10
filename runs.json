@@ -1,0 +1,28 @@
+[
+  {
+    "cmd": "python3 c4_printed.py --replay",
+    "out": "out/c4_printed.out"
+  },
+  {
+    "cmd": "python3 fits.py --replay",
+    "out": "out/fits.out"
+  },
+  {
+    "cmd": "python3 crossmatch.py --replay",
+    "out": "out/crossmatch.out"
+  },
+  {
+    "cmd": "python3 c6_zmedian.py --replay",
+    "out": "out/c6_zmedian.out"
+  },
+  {
+    "cmd": "python3 grids.py --replay",
+    "out": "out/grids.out",
+    "slow": true
+  },
+  {
+    "cmd": "python3 posteriors.py --replay",
+    "out": "out/posteriors.out",
+    "slow": true
+  }
+]

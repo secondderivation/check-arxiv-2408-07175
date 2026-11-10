@@ -1,0 +1,4 @@
+'~2.2 sigma' (l.280): DES5Y Omega_m 0.354 +- 0.017 vs Planck 0.3135 +- 0.0081: 2.15 (sd only 2.38)
+'roughly 3 sigma' (l.289): Delta chi2 12.5 (Planck - w0wa), k=3 2.76, k=2 3.10, k=1 3.54
+'~2 sigma' (l.290): Delta chi2 7.4 (LCDM - w0wa), k=2 2.25, k=1 2.72
+C7 'no significant preference': Delta chi2 2.3 (legends) k=2 1.00; 2.5 (text) k=2 1.07

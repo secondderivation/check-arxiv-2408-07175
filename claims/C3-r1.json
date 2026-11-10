@@ -1,0 +1,11 @@
+{
+ "id": "C3",
+ "kind": "numeric",
+ "location": "l.271-274, 281-287; Fig. 1 legends",
+ "method": "Best fits by minimisation (conventions.json best_fits)",
+ "text": "w0waCDM fits: Pantheon+ Omega_m 0.327, w0 -1.01, wa 0.18, chi2 1258.4 ('no improvement in chi2 compared to LCDM'); DES5Y Omega_m 0.474, w0 -0.54, wa -6.56, chi2 1632.2, i.e. Delta chi2 = 12.5 relative to Planck LCDM and 7.4 relative to the DES5Y LCDM fit.",
+ "rests_on": "Abstract: 'Pantheon+ shows no preference for evolving dark energy' and 'DES5Y favours evolving dark energy'",
+ "revision": 1,
+ "version": 3,
+ "committed_before_run": true
+}

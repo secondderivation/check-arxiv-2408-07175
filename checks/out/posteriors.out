@@ -1,0 +1,354 @@
+
+################ convention paper's (1+zHD)
+
+# C5: SN-only posteriors
+
+== C5 Pantheon+ printed prior [hd]  [pantheon_hd; prior pantheon_printed]
+   grid minimum of -2lnL 1258.552 at (Om, w0, wa) = (0.375, -1.06, -0.40)
+   Omega_m  mean 0.4271 +- 0.0520; median 0.4353; 68% [0.3770, 0.4763]
+   w0       mean -1.0820 +- 0.1605; median -1.0835; 68% [-1.2559, -0.9137]
+   wa       mean -1.9583 +- 1.0491; median -1.8391; 68% [-3.2356, -0.7753]
+   P(w0 > -1) = 0.3146
+   Planck point (0.3135, -1, 0) in Om-w0: level 0.9962 (2.89 sigma) 
+   Planck point (0.3135, -1, 0) in Om-wa: level 1.0000 (8.29 sigma) outside prior
+   Planck point (0.3135, -1, 0) in w0-wa: level 1.0000 (8.29 sigma) outside prior
+
+== C5 Pantheon+ wa variant [hd]  [pantheon_hd; prior pantheon_wa_variant]
+   grid minimum of -2lnL 1258.248 at (Om, w0, wa) = (0.215, -0.88, 0.75)
+   Omega_m  mean 0.4162 +- 0.0895; median 0.4337; 68% [0.3129, 0.5070]
+   w0       mean -1.0462 +- 0.1704; median -1.0448; 68% [-1.2292, -0.8729]
+   wa       mean -2.5088 +- 3.0013; median -1.7397; 68% [-6.0430, 0.4456]
+   P(w0 > -1) = 0.4014
+   Planck point (0.3135, -1, 0) in Om-w0: level 0.4293 (0.57 sigma) 
+   Planck point (0.3135, -1, 0) in Om-wa: level 0.3827 (0.50 sigma) 
+   Planck point (0.3135, -1, 0) in w0-wa: level 0.0699 (0.09 sigma) 
+
+== C5 DES5Y [hd]  [des5y_hd; prior des]
+   grid minimum of -2lnL 1632.002 at (Om, w0, wa) = (0.485, -0.44, -7.85)
+   Omega_m  mean 0.4655 +- 0.0467; median 0.4749; 68% [0.4341, 0.5012]
+   w0       mean -0.5523 +- 0.2011; median -0.5456; 68% [-0.7612, -0.3441]
+   wa       mean -6.4228 +- 2.3742; median -6.7367; 68% [-8.9421, -3.8938]
+   P(w0 > -1) = 0.9859
+   Planck point (0.3135, -1, 0) in Om-w0: level 0.9948 (2.79 sigma) 
+   Planck point (0.3135, -1, 0) in Om-wa: level 0.9793 (2.31 sigma) 
+   Planck point (0.3135, -1, 0) in w0-wa: level 0.9836 (2.40 sigma) 
+
+# C7: DES5Y with 0.04 mag subtracted from the low-z sub-samples
+
+== C7 DES5Y shifted, IDSURVEY != 10 [hd]  [des5y_shift_survey_hd; prior des]
+   grid minimum of -2lnL 1632.788 at (Om, w0, wa) = (0.455, -0.92, -5.05)
+   Omega_m  mean 0.4408 +- 0.0580; median 0.4547; 68% [0.4019, 0.4848]
+   w0       mean -0.9201 +- 0.2127; median -0.9241; 68% [-1.1347, -0.6996]
+   wa       mean -4.8412 +- 2.8457; median -4.9356; 68% [-8.0321, -1.6471]
+   P(w0 > -1) = 0.6369
+   Planck point (0.3135, -1, 0) in Om-w0: level 0.9045 (1.67 sigma) 
+   Planck point (0.3135, -1, 0) in Om-wa: level 0.8957 (1.62 sigma) 
+   Planck point (0.3135, -1, 0) in w0-wa: level 0.8009 (1.28 sigma) 
+
+== C7 DES5Y shifted, zHD < 0.1 [hd]  [des5y_shift_z_hd; prior des]
+   grid minimum of -2lnL 1632.265 at (Om, w0, wa) = (0.455, -0.92, -5.05)
+   Omega_m  mean 0.4410 +- 0.0578; median 0.4548; 68% [0.4021, 0.4849]
+   w0       mean -0.9239 +- 0.2129; median -0.9278; 68% [-1.1386, -0.7031]
+   wa       mean -4.8356 +- 2.8487; median -4.9292; 68% [-8.0311, -1.6362]
+   P(w0 > -1) = 0.6302
+   Planck point (0.3135, -1, 0) in Om-w0: level 0.9050 (1.67 sigma) 
+   Planck point (0.3135, -1, 0) in Om-wa: level 0.8971 (1.63 sigma) 
+   Planck point (0.3135, -1, 0) in w0-wa: level 0.8052 (1.30 sigma) 
+
+# C8: DESI DR1 BAO (alpha prior primary; variant beside), DES5Y prior box
+
+== C8 DESI DR1 alone, alpha primary  [bao_dr1_primary; prior des]
+   grid minimum of -2lnL 23.575 at (Om, w0, wa) = (0.480, 0.82, -6.45)
+   Omega_m  mean 0.4274 +- 0.0558; median 0.4363; 68% [0.3721, 0.4811]
+   w0       mean 0.2855 +- 0.5154; median 0.3782; 68% [-0.2675, 0.8178]
+   wa       mean -4.6924 +- 1.8704; median -4.9896; 68% [-6.5526, -2.7408]
+   P(w0 > -1) = 0.9845
+   Planck point (0.3135, -1, 0) in Om-w0: level 0.9547 (2.00 sigma) 
+   Planck point (0.3135, -1, 0) in Om-wa: level 0.9618 (2.07 sigma) 
+   Planck point (0.3135, -1, 0) in w0-wa: level 0.9272 (1.79 sigma) 
+
+== C8 DESI DR1 + Pantheon+, alpha primary [hd]  [bao_dr1_primary + pantheon_hd; prior des]
+   grid minimum of -2lnL 1287.071 at (Om, w0, wa) = (0.305, -0.90, -0.25)
+   Omega_m  mean 0.2759 +- 0.0697; median 0.2995; 68% [0.2349, 0.3229]
+   w0       mean -0.8825 +- 0.0789; median -0.8887; 68% [-0.9600, -0.8020]
+   wa       mean -0.0902 +- 0.6771; median -0.0924; 68% [-0.7933, 0.7299]
+   P(w0 > -1) = 0.9451
+   Planck point (0.3135, -1, 0) in Om-w0: level 0.6118 (0.86 sigma) 
+   Planck point (0.3135, -1, 0) in Om-wa: level 0.4183 (0.55 sigma) 
+   Planck point (0.3135, -1, 0) in w0-wa: level 0.7428 (1.13 sigma) 
+
+== C8 DESI DR1 + DES5Y, alpha primary [hd]  [bao_dr1_primary + des5y_hd; prior des]
+   grid minimum of -2lnL 1664.153 at (Om, w0, wa) = (0.330, -0.74, -1.20)
+   Omega_m  mean 0.3248 +- 0.0302; median 0.3284; 68% [0.3086, 0.3454]
+   w0       mean -0.7434 +- 0.0917; median -0.7467; 68% [-0.8364, -0.6504]
+   wa       mean -1.1494 +- 0.6997; median -1.1539; 68% [-1.8316, -0.4793]
+   P(w0 > -1) = 0.9992
+   Planck point (0.3135, -1, 0) in Om-w0: level 0.9826 (2.38 sigma) 
+   Planck point (0.3135, -1, 0) in Om-wa: level 0.8833 (1.57 sigma) 
+   Planck point (0.3135, -1, 0) in w0-wa: level 0.9930 (2.70 sigma) 
+
+== C8 DESI DR1 alone, alpha variant  [bao_dr1_variant; prior des]
+   grid minimum of -2lnL 20.455 at (Om, w0, wa) = (0.325, -0.72, -1.25)
+   Omega_m  mean 0.3159 +- 0.0442; median 0.3253; 68% [0.3008, 0.3422]
+   w0       mean -0.7181 +- 0.1548; median -0.7294; 68% [-0.8743, -0.5614]
+   wa       mean -1.2400 +- 1.0594; median -1.2389; 68% [-2.2831, -0.1716]
+   P(w0 > -1) = 0.9822
+   Planck point (0.3135, -1, 0) in Om-w0: level 0.8485 (1.43 sigma) 
+   Planck point (0.3135, -1, 0) in Om-wa: level 0.7446 (1.14 sigma) 
+   Planck point (0.3135, -1, 0) in w0-wa: level 0.8730 (1.53 sigma) 
+
+== C8 DESI DR1 + Pantheon+, alpha variant [hd]  [bao_dr1_variant + pantheon_hd; prior des]
+   grid minimum of -2lnL 1280.875 at (Om, w0, wa) = (0.310, -0.90, -0.25)
+   Omega_m  mean 0.2764 +- 0.0718; median 0.3018; 68% [0.2296, 0.3254]
+   w0       mean -0.8748 +- 0.0775; median -0.8815; 68% [-0.9513, -0.7955]
+   wa       mean -0.0660 +- 0.6734; median -0.0617; 68% [-0.7686, 0.7505]
+   P(w0 > -1) = 0.9610
+   Planck point (0.3135, -1, 0) in Om-w0: level 0.6303 (0.90 sigma) 
+   Planck point (0.3135, -1, 0) in Om-wa: level 0.3364 (0.43 sigma) 
+   Planck point (0.3135, -1, 0) in w0-wa: level 0.8420 (1.41 sigma) 
+
+== C8 DESI DR1 + DES5Y, alpha variant [hd]  [bao_dr1_variant + des5y_hd; prior des]
+   grid minimum of -2lnL 1657.671 at (Om, w0, wa) = (0.325, -0.76, -1.05)
+   Omega_m  mean 0.3227 +- 0.0296; median 0.3266; 68% [0.3079, 0.3422]
+   w0       mean -0.7491 +- 0.0896; median -0.7522; 68% [-0.8398, -0.6586]
+   wa       mean -1.1326 +- 0.6946; median -1.1386; 68% [-1.8098, -0.4677]
+   P(w0 > -1) = 0.9992
+   Planck point (0.3135, -1, 0) in Om-w0: level 0.9840 (2.41 sigma) 
+   Planck point (0.3135, -1, 0) in Om-wa: level 0.8966 (1.63 sigma) 
+   Planck point (0.3135, -1, 0) in w0-wa: level 0.9933 (2.71 sigma) 
+
+# M1c: DES-Dovekie SN-only (data trace)
+
+== M1c DES-Dovekie [hd]  [dovekie_hd; prior des]
+   grid minimum of -2lnL 1626.152 at (Om, w0, wa) = (0.465, -0.56, -6.70)
+   Omega_m  mean 0.4453 +- 0.0558; median 0.4582; 68% [0.4093, 0.4869]
+   w0       mean -0.6222 +- 0.2017; median -0.6230; 68% [-0.8307, -0.4099]
+   wa       mean -5.8022 +- 2.5537; median -6.0261; 68% [-8.5817, -3.0417]
+   P(w0 > -1) = 0.9719
+   Planck point (0.3135, -1, 0) in Om-w0: level 0.9742 (2.23 sigma) 
+   Planck point (0.3135, -1, 0) in Om-wa: level 0.9595 (2.05 sigma) 
+   Planck point (0.3135, -1, 0) in w0-wa: level 0.9579 (2.03 sigma) 
+
+# M2: DESI DR2 BAO (data trace), alpha primary
+
+== M2 DESI DR2 alone, alpha primary  [bao_dr2_primary; prior des]
+   grid minimum of -2lnL 22.430 at (Om, w0, wa) = (0.385, -0.20, -2.65)
+   Omega_m  mean 0.3832 +- 0.0540; median 0.3860; 68% [0.3373, 0.4330]
+   w0       mean -0.1770 +- 0.4281; median -0.1850; 68% [-0.6255, 0.2640]
+   wa       mean -2.7179 +- 1.5396; median -2.7224; 68% [-4.2736, -1.1707]
+   P(w0 > -1) = 0.9811
+   Planck point (0.3135, -1, 0) in Om-w0: level 0.9655 (2.11 sigma) 
+   Planck point (0.3135, -1, 0) in Om-wa: level 0.9456 (1.92 sigma) 
+   Planck point (0.3135, -1, 0) in w0-wa: level 0.8900 (1.60 sigma) 
+
+== M2 DESI DR2 + pantheon, alpha primary [hd]  [bao_dr2_primary + pantheon_hd; prior des]
+   grid minimum of -2lnL 1284.381 at (Om, w0, wa) = (0.300, -0.90, -0.10)
+   Omega_m  mean 0.2641 +- 0.0762; median 0.2936; 68% [0.2117, 0.3139]
+   w0       mean -0.8873 +- 0.0744; median -0.8966; 68% [-0.9584, -0.8139]
+   wa       mean 0.1169 +- 0.5354; median 0.0829; 68% [-0.4355, 0.8114]
+   P(w0 > -1) = 0.9594
+   Planck point (0.3135, -1, 0) in Om-w0: level 0.8061 (1.30 sigma) 
+   Planck point (0.3135, -1, 0) in Om-wa: level 0.6427 (0.92 sigma) 
+   Planck point (0.3135, -1, 0) in w0-wa: level 0.8886 (1.59 sigma) 
+
+== M2 DESI DR2 + des5y, alpha primary [hd]  [bao_dr2_primary + des5y_hd; prior des]
+   grid minimum of -2lnL 1662.160 at (Om, w0, wa) = (0.320, -0.78, -0.70)
+   Omega_m  mean 0.3146 +- 0.0325; median 0.3195; 68% [0.3024, 0.3331]
+   w0       mean -0.7914 +- 0.0704; median -0.7937; 68% [-0.8631, -0.7198]
+   wa       mean -0.6478 +- 0.5009; median -0.6637; 68% [-1.1312, -0.1806]
+   P(w0 > -1) = 0.9995
+   Planck point (0.3135, -1, 0) in Om-w0: level 0.9958 (2.86 sigma) 
+   Planck point (0.3135, -1, 0) in Om-wa: level 0.9057 (1.67 sigma) 
+   Planck point (0.3135, -1, 0) in w0-wa: level 0.9980 (3.09 sigma) 
+
+== M2 DESI DR2 + dovekie, alpha primary [hd]  [bao_dr2_primary + dovekie_hd; prior des]
+   grid minimum of -2lnL 1655.611 at (Om, w0, wa) = (0.310, -0.86, -0.45)
+   Omega_m  mean 0.3010 +- 0.0474; median 0.3113; 68% [0.2907, 0.3257]
+   w0       mean -0.8493 +- 0.0704; median -0.8528; 68% [-0.9204, -0.7768]
+   wa       mean -0.4109 +- 0.5439; median -0.4462; 68% [-0.9319, 0.0940]
+   P(w0 > -1) = 0.9906
+   Planck point (0.3135, -1, 0) in Om-w0: level 0.9325 (1.83 sigma) 
+   Planck point (0.3135, -1, 0) in Om-wa: level 0.8447 (1.42 sigma) 
+   Planck point (0.3135, -1, 0) in w0-wa: level 0.9546 (2.00 sigma) 
+
+== M2 DESI DR2 + pantheon, alpha variant [hd]  [bao_dr2_variant + pantheon_hd; prior des]
+   grid minimum of -2lnL 1277.902 at (Om, w0, wa) = (0.305, -0.90, -0.15)
+   Omega_m  mean 0.2663 +- 0.0758; median 0.2958; 68% [0.2161, 0.3151]
+   w0       mean -0.8783 +- 0.0696; median -0.8882; 68% [-0.9441, -0.8113]
+   wa       mean 0.0928 +- 0.5335; median 0.0559; 68% [-0.4549, 0.7917]
+   P(w0 > -1) = 0.9839
+   Planck point (0.3135, -1, 0) in Om-w0: level 0.9046 (1.67 sigma) 
+   Planck point (0.3135, -1, 0) in Om-wa: level 0.6230 (0.88 sigma) 
+   Planck point (0.3135, -1, 0) in w0-wa: level 0.9664 (2.13 sigma) 
+
+== M2 DESI DR2 + des5y, alpha variant [hd]  [bao_dr2_variant + des5y_hd; prior des]
+   grid minimum of -2lnL 1655.844 at (Om, w0, wa) = (0.315, -0.82, -0.55)
+   Omega_m  mean 0.3111 +- 0.0341; median 0.3167; 68% [0.3003, 0.3294]
+   w0       mean -0.8067 +- 0.0649; median -0.8093; 68% [-0.8731, -0.7404]
+   wa       mean -0.5966 +- 0.4984; median -0.6150; 68% [-1.0764, -0.1343]
+   P(w0 > -1) = 0.9996
+   Planck point (0.3135, -1, 0) in Om-w0: level 0.9965 (2.92 sigma) 
+   Planck point (0.3135, -1, 0) in Om-wa: level 0.9092 (1.69 sigma) 
+   Planck point (0.3135, -1, 0) in w0-wa: level 0.9988 (3.23 sigma) 
+
+== M2 DESI DR2 + dovekie, alpha variant [hd]  [bao_dr2_variant + dovekie_hd; prior des]
+   grid minimum of -2lnL 1648.930 at (Om, w0, wa) = (0.315, -0.84, -0.55)
+   Omega_m  mean 0.3027 +- 0.0452; median 0.3123; 68% [0.2929, 0.3257]
+   w0       mean -0.8452 +- 0.0655; median -0.8488; 68% [-0.9119, -0.7782]
+   wa       mean -0.4318 +- 0.5307; median -0.4645; 68% [-0.9395, 0.0578]
+   P(w0 > -1) = 0.9961
+   Planck point (0.3135, -1, 0) in Om-w0: level 0.9572 (2.03 sigma) 
+   Planck point (0.3135, -1, 0) in Om-wa: level 0.8492 (1.44 sigma) 
+   Planck point (0.3135, -1, 0) in w0-wa: level 0.9852 (2.44 sigma) 
+
+################ convention (1+zHEL), Pantheon+/DES/Cobaya
+
+# C5: SN-only posteriors
+
+== C5 Pantheon+ printed prior [hel]  [pantheon_hel; prior pantheon_printed]
+   grid minimum of -2lnL 1258.305 at (Om, w0, wa) = (0.370, -1.04, -0.40)
+   Omega_m  mean 0.4255 +- 0.0529; median 0.4339; 68% [0.3744, 0.4757]
+   w0       mean -1.0694 +- 0.1616; median -1.0695; 68% [-1.2440, -0.9005]
+   wa       mean -1.9682 +- 1.0502; median -1.8535; 68% [-3.2461, -0.7810]
+   P(w0 > -1) = 0.3441
+   Planck point (0.3135, -1, 0) in Om-w0: level 0.9966 (2.93 sigma) 
+   Planck point (0.3135, -1, 0) in Om-wa: level 1.0000 (8.29 sigma) outside prior
+   Planck point (0.3135, -1, 0) in w0-wa: level 1.0000 (8.29 sigma) outside prior
+
+== C5 Pantheon+ wa variant [hel]  [pantheon_hel; prior pantheon_wa_variant]
+   grid minimum of -2lnL 1258.029 at (Om, w0, wa) = (0.220, -0.88, 0.70)
+   Omega_m  mean 0.4180 +- 0.0893; median 0.4363; 68% [0.3150, 0.5079]
+   w0       mean -1.0324 +- 0.1723; median -1.0302; 68% [-1.2160, -0.8584]
+   wa       mean -2.6334 +- 3.0169; median -1.8929; 68% [-6.2071, 0.3684]
+   P(w0 > -1) = 0.4334
+   Planck point (0.3135, -1, 0) in Om-w0: level 0.4526 (0.60 sigma) 
+   Planck point (0.3135, -1, 0) in Om-wa: level 0.3737 (0.49 sigma) 
+   Planck point (0.3135, -1, 0) in w0-wa: level 0.0623 (0.08 sigma) 
+
+== C5 DES5Y [hel]  [des5y_hel; prior des]
+   grid minimum of -2lnL 1631.235 at (Om, w0, wa) = (0.490, -0.40, -8.30)
+   Omega_m  mean 0.4665 +- 0.0458; median 0.4755; 68% [0.4353, 0.5018]
+   w0       mean -0.5317 +- 0.1999; median -0.5243; 68% [-0.7396, -0.3250]
+   wa       mean -6.4986 +- 2.3404; median -6.8163; 68% [-8.9758, -4.0094]
+   P(w0 > -1) = 0.9895
+   Planck point (0.3135, -1, 0) in Om-w0: level 0.9965 (2.92 sigma) 
+   Planck point (0.3135, -1, 0) in Om-wa: level 0.9825 (2.38 sigma) 
+   Planck point (0.3135, -1, 0) in w0-wa: level 0.9877 (2.50 sigma) 
+
+# C7: DES5Y with 0.04 mag subtracted from the low-z sub-samples
+
+== C7 DES5Y shifted, IDSURVEY != 10 [hel]  [des5y_shift_survey_hel; prior des]
+   grid minimum of -2lnL 1631.958 at (Om, w0, wa) = (0.460, -0.86, -5.60)
+   Omega_m  mean 0.4415 +- 0.0583; median 0.4555; 68% [0.4029, 0.4855]
+   w0       mean -0.8991 +- 0.2121; median -0.9028; 68% [-1.1134, -0.6790]
+   wa       mean -4.9184 +- 2.8321; median -5.0300; 68% [-8.0856, -1.7478]
+   P(w0 > -1) = 0.6738
+   Planck point (0.3135, -1, 0) in Om-w0: level 0.9011 (1.65 sigma) 
+   Planck point (0.3135, -1, 0) in Om-wa: level 0.8964 (1.63 sigma) 
+   Planck point (0.3135, -1, 0) in w0-wa: level 0.7912 (1.26 sigma) 
+
+== C7 DES5Y shifted, zHD < 0.1 [hel]  [des5y_shift_z_hel; prior des]
+   grid minimum of -2lnL 1631.447 at (Om, w0, wa) = (0.460, -0.88, -5.50)
+   Omega_m  mean 0.4417 +- 0.0582; median 0.4556; 68% [0.4031, 0.4856]
+   w0       mean -0.9029 +- 0.2123; median -0.9065; 68% [-1.1173, -0.6825]
+   wa       mean -4.9123 +- 2.8353; median -5.0231; 68% [-8.0844, -1.7361]
+   P(w0 > -1) = 0.6672
+   Planck point (0.3135, -1, 0) in Om-w0: level 0.9024 (1.66 sigma) 
+   Planck point (0.3135, -1, 0) in Om-wa: level 0.8971 (1.63 sigma) 
+   Planck point (0.3135, -1, 0) in w0-wa: level 0.7939 (1.26 sigma) 
+
+# C8: DESI DR1 BAO (alpha prior primary; variant beside), DES5Y prior box
+
+== C8 DESI DR1 + Pantheon+, alpha primary [hel]  [bao_dr1_primary + pantheon_hel; prior des]
+   grid minimum of -2lnL 1286.723 at (Om, w0, wa) = (0.305, -0.90, -0.25)
+   Omega_m  mean 0.2785 +- 0.0684; median 0.3011; 68% [0.2415, 0.3239]
+   w0       mean -0.8778 +- 0.0786; median -0.8837; 68% [-0.9557, -0.7974]
+   wa       mean -0.1337 +- 0.6839; median -0.1422; 68% [-0.8398, 0.6917]
+   P(w0 > -1) = 0.9525
+   Planck point (0.3135, -1, 0) in Om-w0: level 0.6384 (0.91 sigma) 
+   Planck point (0.3135, -1, 0) in Om-wa: level 0.4307 (0.57 sigma) 
+   Planck point (0.3135, -1, 0) in w0-wa: level 0.7683 (1.20 sigma) 
+
+== C8 DESI DR1 + DES5Y, alpha primary [hel]  [bao_dr1_primary + des5y_hel; prior des]
+   grid minimum of -2lnL 1663.438 at (Om, w0, wa) = (0.330, -0.74, -1.20)
+   Omega_m  mean 0.3268 +- 0.0281; median 0.3298; 68% [0.3106, 0.3468]
+   w0       mean -0.7304 +- 0.0925; median -0.7336; 68% [-0.8243, -0.6370]
+   wa       mean -1.2173 +- 0.6956; median -1.2187; 68% [-1.8962, -0.5499]
+   P(w0 > -1) = 0.9995
+   Planck point (0.3135, -1, 0) in Om-w0: level 0.9897 (2.56 sigma) 
+   Planck point (0.3135, -1, 0) in Om-wa: level 0.9041 (1.66 sigma) 
+   Planck point (0.3135, -1, 0) in w0-wa: level 0.9955 (2.84 sigma) 
+
+== C8 DESI DR1 + Pantheon+, alpha variant [hel]  [bao_dr1_variant + pantheon_hel; prior des]
+   grid minimum of -2lnL 1280.501 at (Om, w0, wa) = (0.310, -0.88, -0.35)
+   Omega_m  mean 0.2790 +- 0.0703; median 0.3034; 68% [0.2370, 0.3263]
+   w0       mean -0.8707 +- 0.0772; median -0.8771; 68% [-0.9472, -0.7913]
+   wa       mean -0.1103 +- 0.6809; median -0.1134; 68% [-0.8165, 0.7150]
+   P(w0 > -1) = 0.9659
+   Planck point (0.3135, -1, 0) in Om-w0: level 0.6643 (0.96 sigma) 
+   Planck point (0.3135, -1, 0) in Om-wa: level 0.3734 (0.49 sigma) 
+   Planck point (0.3135, -1, 0) in w0-wa: level 0.8490 (1.44 sigma) 
+
+== C8 DESI DR1 + DES5Y, alpha variant [hel]  [bao_dr1_variant + des5y_hel; prior des]
+   grid minimum of -2lnL 1657.008 at (Om, w0, wa) = (0.325, -0.74, -1.15)
+   Omega_m  mean 0.3242 +- 0.0274; median 0.3275; 68% [0.3095, 0.3429]
+   w0       mean -0.7377 +- 0.0902; median -0.7407; 68% [-0.8296, -0.6462]
+   wa       mean -1.1960 +- 0.6894; median -1.1991; 68% [-1.8693, -0.5344]
+   P(w0 > -1) = 0.9995
+   Planck point (0.3135, -1, 0) in Om-w0: level 0.9905 (2.59 sigma) 
+   Planck point (0.3135, -1, 0) in Om-wa: level 0.9178 (1.74 sigma) 
+   Planck point (0.3135, -1, 0) in w0-wa: level 0.9957 (2.86 sigma) 
+
+# M1c: DES-Dovekie SN-only (data trace)
+
+== M1c DES-Dovekie [hel]  [dovekie_hel; prior des]
+   grid minimum of -2lnL 1625.309 at (Om, w0, wa) = (0.465, -0.54, -6.75)
+   Omega_m  mean 0.4464 +- 0.0546; median 0.4590; 68% [0.4108, 0.4874]
+   w0       mean -0.6011 +- 0.2010; median -0.6010; 68% [-0.8095, -0.3898]
+   wa       mean -5.8937 +- 2.5215; median -6.1263; 68% [-8.6313, -3.1741]
+   P(w0 > -1) = 0.9787
+   Planck point (0.3135, -1, 0) in Om-w0: level 0.9806 (2.34 sigma) 
+   Planck point (0.3135, -1, 0) in Om-wa: level 0.9661 (2.12 sigma) 
+   Planck point (0.3135, -1, 0) in w0-wa: level 0.9683 (2.15 sigma) 
+
+# M2: DESI DR2 BAO (data trace), alpha primary
+
+== M2 DESI DR2 + pantheon, alpha primary [hel]  [bao_dr2_primary + pantheon_hel; prior des]
+   grid minimum of -2lnL 1284.023 at (Om, w0, wa) = (0.305, -0.90, -0.20)
+   Omega_m  mean 0.2669 +- 0.0749; median 0.2952; 68% [0.2221, 0.3148]
+   w0       mean -0.8841 +- 0.0734; median -0.8927; 68% [-0.9550, -0.8115]
+   wa       mean 0.0833 +- 0.5386; median 0.0446; 68% [-0.4681, 0.7839]
+   P(w0 > -1) = 0.9650
+   Planck point (0.3135, -1, 0) in Om-w0: level 0.8239 (1.35 sigma) 
+   Planck point (0.3135, -1, 0) in Om-wa: level 0.6521 (0.94 sigma) 
+   Planck point (0.3135, -1, 0) in w0-wa: level 0.8993 (1.64 sigma) 
+
+== M2 DESI DR2 + des5y, alpha primary [hel]  [bao_dr2_primary + des5y_hel; prior des]
+   grid minimum of -2lnL 1661.442 at (Om, w0, wa) = (0.320, -0.78, -0.70)
+   Omega_m  mean 0.3169 +- 0.0295; median 0.3209; 68% [0.3046, 0.3343]
+   w0       mean -0.7811 +- 0.0709; median -0.7833; 68% [-0.8535, -0.7085]
+   wa       mean -0.7002 +- 0.4941; median -0.7127; 68% [-1.1787, -0.2362]
+   P(w0 > -1) = 0.9997
+   Planck point (0.3135, -1, 0) in Om-w0: level 0.9975 (3.02 sigma) 
+   Planck point (0.3135, -1, 0) in Om-wa: level 0.9204 (1.75 sigma) 
+   Planck point (0.3135, -1, 0) in w0-wa: level 0.9988 (3.23 sigma) 
+
+== M2 DESI DR2 + dovekie, alpha primary [hel]  [bao_dr2_primary + dovekie_hel; prior des]
+   grid minimum of -2lnL 1654.888 at (Om, w0, wa) = (0.315, -0.84, -0.50)
+   Omega_m  mean 0.3040 +- 0.0440; median 0.3128; 68% [0.2934, 0.3271]
+   w0       mean -0.8404 +- 0.0706; median -0.8436; 68% [-0.9124, -0.7675]
+   wa       mean -0.4670 +- 0.5366; median -0.4980; 68% [-0.9806, 0.0276]
+   P(w0 > -1) = 0.9935
+   Planck point (0.3135, -1, 0) in Om-w0: level 0.9469 (1.93 sigma) 
+   Planck point (0.3135, -1, 0) in Om-wa: level 0.8673 (1.50 sigma) 
+   Planck point (0.3135, -1, 0) in w0-wa: level 0.9686 (2.15 sigma) 
+
+# C0.4: grid minimum on the LCDM line (w0 = -1, wa = 0) vs the Brent minimiser
+   pantheon_hd: grid LCDM min 1258.449 at Om 0.335; minimiser 1258.443 at 0.3335; diff 0.006; w0wa grid min (DES box) 1258.245 vs minimiser 1258.244
+   pantheon_hel: grid LCDM min 1258.192 at Om 0.335; minimiser 1258.191 at 0.3345; diff 0.001; w0wa grid min (DES box) 1258.019 vs minimiser 1258.018
+   des5y_hd: grid LCDM min 1639.612 at Om 0.350; minimiser 1639.611 at 0.3498; diff 0.000; w0wa grid min (DES box) 1632.002 vs minimiser 1632.000
+   des5y_hel: grid LCDM min 1639.402 at Om 0.350; minimiser 1639.389 at 0.3519; diff 0.013; w0wa grid min (DES box) 1631.235 vs minimiser 1631.230
+   des5y_shift_survey_hd: grid LCDM min 1635.672 at Om 0.310; minimiser 1635.672 at 0.3101; diff 0.000; w0wa grid min (DES box) 1632.788 vs minimiser 1632.782
+   des5y_shift_survey_hel: grid LCDM min 1634.852 at Om 0.310; minimiser 1634.837 at 0.3120; diff 0.016; w0wa grid min (DES box) 1631.958 vs minimiser 1631.955
+   dovekie_hd: grid LCDM min 1631.774 at Om 0.330; minimiser 1631.767 at 0.3287; diff 0.007; w0wa grid min (DES box) 1626.152 vs minimiser 1626.151
+   dovekie_hel: grid LCDM min 1631.421 at Om 0.330; minimiser 1631.421 at 0.3303; diff 0.000; w0wa grid min (DES box) 1625.309 vs minimiser 1625.308

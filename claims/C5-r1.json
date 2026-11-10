@@ -1,0 +1,11 @@
+{
+ "id": "C5",
+ "kind": "posterior",
+ "location": "l.297-321, Fig. 2; priors l.299-304",
+ "method": "Grid posterior with the printed priors (and the pre-declared Pantheon+ wa variant), credible level of (0.3135, -1, 0) in each 2D projection",
+ "text": "SN-only posteriors (Fig. 2): the Planck LCDM point lies within the 1 sigma contours of Pantheon+ (all three projections); DES5Y favours high Omega_m (>~ 0.4), w0 > -1 and wa <~ -2.",
+ "rests_on": "'The cosmology inferred from Pantheon+ alone is consistent with Planck LCDM ... DES5Y favours evolving dark energy' (abstract)",
+ "revision": 1,
+ "version": 3,
+ "committed_before_run": true
+}

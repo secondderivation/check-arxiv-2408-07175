@@ -1,0 +1,20 @@
+C0.1 DES5Y Cobaya file vs DES release 1.3: 1829 rows, 1829 matched by CID
+  max |MU - release| = 0.00e+00
+  max |MUERR_FINAL - release| = 0.00e+00
+  max |zHD - release| = 0.00e+00
+  max |zHEL - release| = 0.00e+00
+  max |IDSURVEY - release| = 0.00e+00
+  same order as the release: True
+C0.2 Omega_r = 9.191e-05
+  Pantheon+  (0.3135, -1.0, 0.0): chi2 1259.380; with radiation -0.0170; (1+zHD) instead of (1+zHEL) +0.1427
+  Pantheon+  (0.35, -0.8, -1.0): chi2 1263.719; with radiation +0.0238; (1+zHD) instead of (1+zHEL) +0.7025
+  Pantheon+  (0.45, -0.6, -5.0): chi2 1268.492; with radiation +0.0178; (1+zHD) instead of (1+zHEL) +0.9736
+  DES5Y      (0.3135, -1.0, 0.0): chi2 1644.881; with radiation -0.0448; (1+zHD) instead of (1+zHEL) -0.3422
+  DES5Y      (0.35, -0.8, -1.0): chi2 1636.437; with radiation +0.0075; (1+zHD) instead of (1+zHEL) +0.7395
+  DES5Y      (0.45, -0.6, -5.0): chi2 1632.062; with radiation -0.0012; (1+zHD) instead of (1+zHEL) +0.8012
+C0.3 our chi2 minus Cobaya 3.6.2 (-2 loglike), same samples as Cobaya cuts them:
+  (0.3135, -1.0, 0.0): Pantheon+ -0.00000  DES5Y +0.00000  DESI DR1 -0.00000
+  (0.35, -0.8, -1.0): Pantheon+ -0.00000  DES5Y +0.00000  DESI DR1 +0.00000
+  (0.45, -0.6, -5.0): Pantheon+ +0.00000  DES5Y -0.00000  DESI DR1 -0.00000
+  C0.3 pass (max |difference| 5.10e-08, tolerance 0.01)
+C0.4 distance table vs quad: max relative error 1.2e-11 pass

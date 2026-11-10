@@ -1,0 +1,11 @@
+{
+ "id": "C2",
+ "kind": "numeric",
+ "location": "l.259-260, 266-270, 279-281; Fig. 1 legends",
+ "method": "Own SN likelihoods (numpy, from the public files), chi2 profiled over the magnitude offset",
+ "text": "Fidelity gate. chi2 of the Planck LCDM cosmology (Omega_m = 0.3135): 1259.6 (Pantheon+) and 1644.68 (DES5Y). LCDM fits: Pantheon+ Omega_m = 0.333 +- 0.018, chi2 1258.4, Delta chi2 = 1.2 vs Planck; DES5Y Omega_m = 0.354 +- 0.017 (text) / 0.349 (Fig. 1 best fit), chi2 1639.6, Delta chi2 = 5.1.",
+ "rests_on": "The statements 'Pantheon+ consistent with Planck LCDM' and 'DES5Y discrepant' (abstract) rest on these fits; reproducing them makes our SN likelihoods speak for the paper (G15)",
+ "revision": 1,
+ "version": 3,
+ "committed_before_run": true
+}

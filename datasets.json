@@ -1,0 +1,458 @@
+{
+  "datasets": [
+    {
+      "id": "pantheon-plus-sn-data",
+      "kind": "data",
+      "name": "Pantheon+ supernovae: data file and STAT+SYS covariance",
+      "survey": "Pantheon+",
+      "release": "2022",
+      "role": "same",
+      "role_label": "data the paper used",
+      "used_for": [
+        "C1",
+        "C2",
+        "C3",
+        "C5",
+        "C6",
+        "C8",
+        "M1",
+        "M2"
+      ],
+      "value": null,
+      "note": "m_b_corr and STAT+SYS covariance, as the paper (Scolnic et al. 2022).",
+      "coverage": "1,701 light curves of 1,550 SNe Ia, 0.001 < z < 2.26",
+      "links": {
+        "landing": "https://github.com/PantheonPlusSH0ES/DataRelease",
+        "papers": [
+          {
+            "label": "The Pantheon+ analysis: cosmological constraints",
+            "url": "https://arxiv.org/abs/2202.04077"
+          }
+        ],
+        "files": [
+          {
+            "path": "PantheonPlus/Pantheon+SH0ES.dat",
+            "url": "https://raw.githubusercontent.com/CobayaSampler/sn_data/61d96434cafc2770928322c38e5a750e686368ae/PantheonPlus/Pantheon+SH0ES.dat",
+            "sha256": "1cb0fc379ef066afdc2ffd1857681cc478024570d8a3eba284fb645775198cf8"
+          },
+          {
+            "path": "PantheonPlus/Pantheon+SH0ES_STAT+SYS.cov",
+            "url": "https://raw.githubusercontent.com/CobayaSampler/sn_data/61d96434cafc2770928322c38e5a750e686368ae/PantheonPlus/Pantheon+SH0ES_STAT+SYS.cov",
+            "sha256": "abf806d966485e64afdb359c87bffc0ecc00d05eff0a31ced66f247385df0fdc"
+          },
+          {
+            "path": "PantheonPlus/config.dataset",
+            "url": "https://raw.githubusercontent.com/CobayaSampler/sn_data/61d96434cafc2770928322c38e5a750e686368ae/PantheonPlus/config.dataset",
+            "sha256": "80e7104bec01b27ab1d1ad0adcc66effc3df28138c5e5da992d775b5171b93cb"
+          }
+        ],
+        "distribution": "https://github.com/CobayaSampler/sn_data/tree/61d96434cafc2770928322c38e5a750e686368ae"
+      },
+      "licence": "No licence file in the distribution repository: link and fetch, don't copy",
+      "acknowledgement": null,
+      "files": [
+        {
+          "path": "PantheonPlus/Pantheon+SH0ES.dat",
+          "url": "https://raw.githubusercontent.com/CobayaSampler/sn_data/61d96434cafc2770928322c38e5a750e686368ae/PantheonPlus/Pantheon+SH0ES.dat",
+          "sha256": "1cb0fc379ef066afdc2ffd1857681cc478024570d8a3eba284fb645775198cf8",
+          "local": "data/raw/PantheonPlus/Pantheon+SH0ES.dat"
+        },
+        {
+          "path": "PantheonPlus/Pantheon+SH0ES_STAT+SYS.cov",
+          "url": "https://raw.githubusercontent.com/CobayaSampler/sn_data/61d96434cafc2770928322c38e5a750e686368ae/PantheonPlus/Pantheon+SH0ES_STAT+SYS.cov",
+          "sha256": "abf806d966485e64afdb359c87bffc0ecc00d05eff0a31ced66f247385df0fdc",
+          "local": "data/raw/PantheonPlus/Pantheon+SH0ES_STAT+SYS.cov"
+        },
+        {
+          "path": "PantheonPlus/config.dataset",
+          "url": "https://raw.githubusercontent.com/CobayaSampler/sn_data/61d96434cafc2770928322c38e5a750e686368ae/PantheonPlus/config.dataset",
+          "sha256": "80e7104bec01b27ab1d1ad0adcc66effc3df28138c5e5da992d775b5171b93cb",
+          "local": "data/raw/PantheonPlus/config.dataset"
+        }
+      ]
+    },
+    {
+      "id": "des-sn5yr-data",
+      "kind": "data",
+      "name": "DES 5-year supernovae (Vincenzi et al. 2024, original calibration): Hubble diagram and systematic covariance",
+      "survey": "DES",
+      "release": "SN5YR (2024)",
+      "role": "same",
+      "role_label": "data the paper used",
+      "used_for": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5",
+        "C6",
+        "C7",
+        "C8"
+      ],
+      "value": null,
+      "note": "DES-SN5YR Hubble diagram (Vincenzi et al. 2024) and systematic covariance, Cobaya packaging; statistical part MUERR_FINAL^2 on the diagonal.",
+      "coverage": "1,829 SNe Ia, 0.025 < z < 1.13",
+      "links": {
+        "landing": "https://github.com/des-science/DES-SN5YR/releases/tag/1.3",
+        "papers": [
+          {
+            "label": "DES: cosmology results with ~1,500 new high-redshift SNe Ia (5-year data)",
+            "url": "https://arxiv.org/abs/2401.02929"
+          }
+        ],
+        "files": [
+          {
+            "path": "DESY5/DES-SN5YR_HD.csv",
+            "url": "https://raw.githubusercontent.com/CobayaSampler/sn_data/61d96434cafc2770928322c38e5a750e686368ae/DESY5/DES-SN5YR_HD.csv",
+            "sha256": "95ab1e9f5460a056de37d2b4e28df73ce0c7fd471baba9fb37f1667f41b7901c"
+          },
+          {
+            "path": "DESY5/covsys_000.txt",
+            "url": "https://raw.githubusercontent.com/CobayaSampler/sn_data/61d96434cafc2770928322c38e5a750e686368ae/DESY5/covsys_000.txt",
+            "sha256": "a9e8deeb219375dcb507eaff261eede8314175729be41dae18235a817f68a474"
+          },
+          {
+            "path": "DESY5/config.dataset",
+            "url": "https://raw.githubusercontent.com/CobayaSampler/sn_data/61d96434cafc2770928322c38e5a750e686368ae/DESY5/config.dataset",
+            "sha256": "1b022e39fdf948e649f24bfd862c00c954ebe97a3ab2ac25b450b44ac60f580e"
+          }
+        ],
+        "distribution": "https://github.com/CobayaSampler/sn_data/tree/61d96434cafc2770928322c38e5a750e686368ae"
+      },
+      "licence": "No licence file in the distribution repository: link and fetch, don't copy",
+      "acknowledgement": null,
+      "files": [
+        {
+          "path": "DESY5/DES-SN5YR_HD.csv",
+          "url": "https://raw.githubusercontent.com/CobayaSampler/sn_data/61d96434cafc2770928322c38e5a750e686368ae/DESY5/DES-SN5YR_HD.csv",
+          "sha256": "95ab1e9f5460a056de37d2b4e28df73ce0c7fd471baba9fb37f1667f41b7901c",
+          "local": "data/raw/DESY5/DES-SN5YR_HD.csv"
+        },
+        {
+          "path": "DESY5/covsys_000.txt",
+          "url": "https://raw.githubusercontent.com/CobayaSampler/sn_data/61d96434cafc2770928322c38e5a750e686368ae/DESY5/covsys_000.txt",
+          "sha256": "a9e8deeb219375dcb507eaff261eede8314175729be41dae18235a817f68a474",
+          "local": "data/raw/DESY5/covsys_000.txt"
+        },
+        {
+          "path": "DESY5/config.dataset",
+          "url": "https://raw.githubusercontent.com/CobayaSampler/sn_data/61d96434cafc2770928322c38e5a750e686368ae/DESY5/config.dataset",
+          "sha256": "1b022e39fdf948e649f24bfd862c00c954ebe97a3ab2ac25b450b44ac60f580e",
+          "local": "data/raw/DESY5/config.dataset"
+        }
+      ]
+    },
+    {
+      "id": "desi-dr1-bao",
+      "kind": "data",
+      "name": "DESI DR1 BAO distances (Gaussian likelihood, all tracers)",
+      "survey": "DESI",
+      "release": "DR1 (2024)",
+      "role": "same",
+      "role_label": "data the paper used",
+      "used_for": [
+        "C8"
+      ],
+      "value": null,
+      "note": "DESI DR1 BAO (Appendix A, 'DESI24').",
+      "coverage": "0.1 < z < 4.2: BGS, LRG, ELG, QSO, Lyα; 12 numbers (D_V/r_d, D_M/r_d, D_H/r_d) with full covariance",
+      "links": {
+        "landing": "https://data.desi.lbl.gov/doc/releases/dr1/",
+        "papers": [
+          {
+            "label": "DESI DR1 data release paper",
+            "url": "https://arxiv.org/abs/2503.14745"
+          },
+          {
+            "label": "DESI 2024 III: BAO from galaxies and quasars",
+            "url": "https://arxiv.org/abs/2404.03000"
+          },
+          {
+            "label": "DESI 2024 IV: BAO from the Lyman-α forest",
+            "url": "https://arxiv.org/abs/2404.03001"
+          },
+          {
+            "label": "DESI 2024 VI: cosmological constraints",
+            "url": "https://arxiv.org/abs/2404.03002"
+          }
+        ],
+        "files": [
+          {
+            "path": "desi_2024_gaussian_bao_ALL_GCcomb_mean.txt",
+            "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/bb0c1c9009dc76d1391300e169e8df38fd1096db/desi_2024_gaussian_bao_ALL_GCcomb_mean.txt",
+            "sha256": "dd2873a0b88459a491af3c0c0307ba059f62df9211d5b976760f310565a1be68"
+          },
+          {
+            "path": "desi_2024_gaussian_bao_ALL_GCcomb_cov.txt",
+            "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/bb0c1c9009dc76d1391300e169e8df38fd1096db/desi_2024_gaussian_bao_ALL_GCcomb_cov.txt",
+            "sha256": "bbafa9074b51cf1a45e0d10e4f37db8c0e80a5d1d1788857abb7fc49fb21abcc"
+          }
+        ],
+        "distribution": "https://github.com/CobayaSampler/bao_data/tree/bb0c1c9009dc76d1391300e169e8df38fd1096db"
+      },
+      "licence": "DESI public data: CC BY 4.0 with a required citation and acknowledgement (sd-research ethics §4.8). The distribution repository has no licence file, so we link and fetch, not copy",
+      "acknowledgement": "This research used data obtained with the Dark Energy Spectroscopic Instrument (DESI). DESI construction and operations is managed by the Lawrence Berkeley National Laboratory. This material is based upon work supported by the U.S. Department of Energy, Office of Science, Office of High-Energy Physics, under Contract No. DE–AC02–05CH11231, and by the National Energy Research Scientific Computing Center, a DOE Office of Science User Facility under the same contract. Additional support for DESI was provided by the U.S. National Science Foundation (NSF), Division of Astronomical Sciences under Contract No. AST-0950945 to the NSF’s National Optical-Infrared Astronomy Research Laboratory; the Science and Technology Facilities Council of the United Kingdom; the Gordon and Betty Moore Foundation; the Heising-Simons Foundation; the French Alternative Energies and Atomic Energy Commission (CEA); the National Council of Humanities, Science and Technology of Mexico (CONAHCYT); the Ministry of Science and Innovation of Spain (MICINN), and by the DESI Member Institutions: www.desi.lbl.gov/collaborating-institutions. The DESI collaboration is honored to be permitted to conduct scientific research on I’oligam Du’ag (Kitt Peak), a mountain with particular significance to the Tohono O’odham Nation. Any opinions, findings, and conclusions or recommendations expressed in this material are those of the author(s) and do not necessarily reflect the views of the U.S. National Science Foundation, the U.S. Department of Energy, or any of the listed funding agencies.",
+      "files": [
+        {
+          "path": "desi_2024_gaussian_bao_ALL_GCcomb_mean.txt",
+          "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/bb0c1c9009dc76d1391300e169e8df38fd1096db/desi_2024_gaussian_bao_ALL_GCcomb_mean.txt",
+          "sha256": "dd2873a0b88459a491af3c0c0307ba059f62df9211d5b976760f310565a1be68",
+          "local": "data/raw/bao_data/desi_2024_gaussian_bao_ALL_GCcomb_mean.txt"
+        },
+        {
+          "path": "desi_2024_gaussian_bao_ALL_GCcomb_cov.txt",
+          "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/bb0c1c9009dc76d1391300e169e8df38fd1096db/desi_2024_gaussian_bao_ALL_GCcomb_cov.txt",
+          "sha256": "bbafa9074b51cf1a45e0d10e4f37db8c0e80a5d1d1788857abb7fc49fb21abcc",
+          "local": "data/raw/bao_data/desi_2024_gaussian_bao_ALL_GCcomb_cov.txt"
+        }
+      ]
+    },
+    {
+      "id": "des-dovekie-sn",
+      "kind": "data",
+      "name": "DES-Dovekie supernovae (DES 5-year with Dovekie recalibration): Hubble diagram and STAT+SYS covariance",
+      "survey": "DES",
+      "release": "DES-Dovekie (2025/2026)",
+      "role": "update",
+      "role_label": "newer release of the paper's data",
+      "used_for": [
+        "M1",
+        "M2"
+      ],
+      "value": null,
+      "note": "DES 5-year SN recalibrated with Dovekie (Popovic et al. 2026); the des-science file carries CIDs, needed for the common-SN match.",
+      "coverage": "1,820 SNe Ia, 0.025 < z < 1.13; MU assumes H0 = 70, offset to be marginalised",
+      "links": {
+        "landing": "https://github.com/des-science/DES-SN5YR",
+        "papers": [
+          {
+            "label": "Popovic et al. 2026, DES SN reanalysis with Dovekie calibration",
+            "url": "https://arxiv.org/abs/2511.07517"
+          },
+          {
+            "label": "Popovic et al. 2025b, Dovekie calibration",
+            "url": "https://arxiv.org/abs/2506.05471"
+          }
+        ],
+        "files": [
+          {
+            "path": "4_DISTANCES_COVMAT/DES-Dovekie_HD.csv",
+            "url": "https://raw.githubusercontent.com/des-science/DES-SN5YR/c9a4fcafc4cbd19bd750dee47fc76194a45c181f/4_DISTANCES_COVMAT/DES-Dovekie_HD.csv",
+            "sha256": "2f57019d783eaa976df80a41b0054171a2d994ee9808d715ce850c2df5720aaf"
+          },
+          {
+            "path": "4_DISTANCES_COVMAT/STAT+SYS.npz",
+            "url": "https://raw.githubusercontent.com/des-science/DES-SN5YR/c9a4fcafc4cbd19bd750dee47fc76194a45c181f/4_DISTANCES_COVMAT/STAT+SYS.npz",
+            "sha256": "ffd3124b32148b1372bd95fda9299269f0352a9f8eee02d416c610e38495463b"
+          },
+          {
+            "path": "4_DISTANCES_COVMAT/STATONLY.npz",
+            "url": "https://raw.githubusercontent.com/des-science/DES-SN5YR/c9a4fcafc4cbd19bd750dee47fc76194a45c181f/4_DISTANCES_COVMAT/STATONLY.npz",
+            "sha256": "ba596d4f035530e53bf5bf2c24359e2dc00ef6449661a30c83bdbe50ae26f6b2"
+          }
+        ],
+        "distribution": "https://github.com/des-science/DES-SN5YR/tree/c9a4fcafc4cbd19bd750dee47fc76194a45c181f"
+      },
+      "licence": "No licence file in the repository: link and fetch, don't copy",
+      "acknowledgement": null,
+      "files": [
+        {
+          "path": "4_DISTANCES_COVMAT/DES-Dovekie_HD.csv",
+          "url": "https://raw.githubusercontent.com/des-science/DES-SN5YR/c9a4fcafc4cbd19bd750dee47fc76194a45c181f/4_DISTANCES_COVMAT/DES-Dovekie_HD.csv",
+          "sha256": "2f57019d783eaa976df80a41b0054171a2d994ee9808d715ce850c2df5720aaf",
+          "local": "data/raw/desrepo/DES-Dovekie_HD.csv"
+        },
+        {
+          "path": "4_DISTANCES_COVMAT/STAT+SYS.npz",
+          "url": "https://raw.githubusercontent.com/des-science/DES-SN5YR/c9a4fcafc4cbd19bd750dee47fc76194a45c181f/4_DISTANCES_COVMAT/STAT+SYS.npz",
+          "sha256": "ffd3124b32148b1372bd95fda9299269f0352a9f8eee02d416c610e38495463b",
+          "local": "data/raw/desrepo/STAT+SYS.npz"
+        },
+        {
+          "path": "4_DISTANCES_COVMAT/STATONLY.npz",
+          "url": "https://raw.githubusercontent.com/des-science/DES-SN5YR/c9a4fcafc4cbd19bd750dee47fc76194a45c181f/4_DISTANCES_COVMAT/STATONLY.npz",
+          "sha256": "ba596d4f035530e53bf5bf2c24359e2dc00ef6449661a30c83bdbe50ae26f6b2",
+          "local": "data/raw/desrepo/STATONLY.npz"
+        }
+      ]
+    },
+    {
+      "id": "desi-dr2-bao",
+      "kind": "data",
+      "name": "DESI DR2 BAO distances (Gaussian likelihood, all tracers)",
+      "survey": "DESI",
+      "release": "DR2 (2025)",
+      "role": "update",
+      "role_label": "newer release of the paper's data",
+      "used_for": [
+        "M2"
+      ],
+      "value": null,
+      "note": "DESI DR2 BAO, re-test of Appendix A.",
+      "coverage": "0.1 < z < 4.2: BGS, LRG, ELG, QSO, Lyα; 13 numbers with full covariance",
+      "links": {
+        "landing": "https://data.desi.lbl.gov/public/papers/y3/bao-cosmo-params/README.html",
+        "papers": [
+          {
+            "label": "DESI DR2 Results II: BAO and cosmological constraints",
+            "url": "https://arxiv.org/abs/2503.14738"
+          },
+          {
+            "label": "DESI DR2 Results I: BAO from the Lyman-α forest",
+            "url": "https://arxiv.org/abs/2503.14739"
+          }
+        ],
+        "files": [
+          {
+            "path": "desi_bao_dr2/desi_gaussian_bao_ALL_GCcomb_mean.txt",
+            "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/bb0c1c9009dc76d1391300e169e8df38fd1096db/desi_bao_dr2/desi_gaussian_bao_ALL_GCcomb_mean.txt",
+            "sha256": "9ac154ab583ce759c0f7eef3c978c7c70a6ead2d18774caceadf1a350a640585"
+          },
+          {
+            "path": "desi_bao_dr2/desi_gaussian_bao_ALL_GCcomb_cov.txt",
+            "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/bb0c1c9009dc76d1391300e169e8df38fd1096db/desi_bao_dr2/desi_gaussian_bao_ALL_GCcomb_cov.txt",
+            "sha256": "252a143274c8a07c78694c119617d36594f6d7965d00319ca611c6ffb886e509"
+          }
+        ],
+        "distribution": "https://github.com/CobayaSampler/bao_data/tree/bb0c1c9009dc76d1391300e169e8df38fd1096db"
+      },
+      "licence": "DESI public data: CC BY 4.0 with a required citation and acknowledgement (sd-research ethics §4.8). The distribution repository has no licence file, so we link and fetch, not copy",
+      "acknowledgement": "This research used data obtained with the Dark Energy Spectroscopic Instrument (DESI). DESI construction and operations is managed by the Lawrence Berkeley National Laboratory. This material is based upon work supported by the U.S. Department of Energy, Office of Science, Office of High-Energy Physics, under Contract No. DE–AC02–05CH11231, and by the National Energy Research Scientific Computing Center, a DOE Office of Science User Facility under the same contract. Additional support for DESI was provided by the U.S. National Science Foundation (NSF), Division of Astronomical Sciences under Contract No. AST-0950945 to the NSF’s National Optical-Infrared Astronomy Research Laboratory; the Science and Technology Facilities Council of the United Kingdom; the Gordon and Betty Moore Foundation; the Heising-Simons Foundation; the French Alternative Energies and Atomic Energy Commission (CEA); the National Council of Humanities, Science and Technology of Mexico (CONAHCYT); the Ministry of Science and Innovation of Spain (MICINN), and by the DESI Member Institutions: www.desi.lbl.gov/collaborating-institutions. The DESI collaboration is honored to be permitted to conduct scientific research on I’oligam Du’ag (Kitt Peak), a mountain with particular significance to the Tohono O’odham Nation. Any opinions, findings, and conclusions or recommendations expressed in this material are those of the author(s) and do not necessarily reflect the views of the U.S. National Science Foundation, the U.S. Department of Energy, or any of the listed funding agencies.",
+      "files": [
+        {
+          "path": "desi_bao_dr2/desi_gaussian_bao_ALL_GCcomb_mean.txt",
+          "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/bb0c1c9009dc76d1391300e169e8df38fd1096db/desi_bao_dr2/desi_gaussian_bao_ALL_GCcomb_mean.txt",
+          "sha256": "9ac154ab583ce759c0f7eef3c978c7c70a6ead2d18774caceadf1a350a640585",
+          "local": "data/raw/bao_data/desi_bao_dr2/desi_gaussian_bao_ALL_GCcomb_mean.txt"
+        },
+        {
+          "path": "desi_bao_dr2/desi_gaussian_bao_ALL_GCcomb_cov.txt",
+          "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/bb0c1c9009dc76d1391300e169e8df38fd1096db/desi_bao_dr2/desi_gaussian_bao_ALL_GCcomb_cov.txt",
+          "sha256": "252a143274c8a07c78694c119617d36594f6d7965d00319ca611c6ffb886e509",
+          "local": "data/raw/bao_data/desi_bao_dr2/desi_gaussian_bao_ALL_GCcomb_cov.txt"
+        }
+      ]
+    },
+    {
+      "id": "planck-camspec-eg21-lcdm",
+      "kind": "published_value",
+      "name": "Planck CamSpec (12.5cln TTTEEE) LCDM parameters",
+      "survey": "Planck",
+      "release": "PR3 maps, CamSpec reanalysis (Efstathiou & Gratton 2021)",
+      "role": "reference_value",
+      "role_label": "published value, taken as printed",
+      "used_for": [
+        "C2",
+        "C3",
+        "C4",
+        "C5",
+        "C7",
+        "C8"
+      ],
+      "value": null,
+      "note": "Omega_m = 0.3135 +- 0.0081 taken as printed in the paper (l.259); the reference cosmology of every 'Planck LCDM' statement.",
+      "coverage": null,
+      "links": {
+        "landing": "https://arxiv.org/abs/1910.00483",
+        "papers": [
+          {
+            "label": "Efstathiou & Gratton 2021, CamSpec likelihood and reanalysis of the Planck high-frequency maps",
+            "url": "https://arxiv.org/abs/1910.00483"
+          }
+        ],
+        "files": [],
+        "distribution": null
+      },
+      "licence": "Number quoted from the paper",
+      "acknowledgement": null,
+      "files": []
+    },
+    {
+      "id": "desi-2024-dr1-cosmology",
+      "kind": "published_value",
+      "name": "DESI 2024 (DR1) cosmological constraints",
+      "survey": "DESI",
+      "release": "DR1 (2024)",
+      "role": "reference_value",
+      "role_label": "published value, taken as printed",
+      "used_for": [
+        "C9"
+      ],
+      "value": null,
+      "note": "Significance levels and w, Omega_m values the paper quotes from DESI24.",
+      "coverage": null,
+      "links": {
+        "landing": "https://arxiv.org/abs/2404.03002",
+        "papers": [
+          {
+            "label": "DESI 2024 VI: cosmological constraints from BAO",
+            "url": "https://arxiv.org/abs/2404.03002"
+          }
+        ],
+        "files": [],
+        "distribution": null
+      },
+      "licence": "Number quoted from the paper",
+      "acknowledgement": null,
+      "files": []
+    },
+    {
+      "id": "planck-2018-lcdm",
+      "kind": "published_value",
+      "name": "Planck 2018 ΛCDM parameters",
+      "survey": "Planck",
+      "release": "PR3 (2018)",
+      "role": "reference_value",
+      "role_label": "published value, taken as printed",
+      "used_for": [
+        "C9"
+      ],
+      "value": null,
+      "note": "Constant-w result the paper quotes (l.133).",
+      "coverage": null,
+      "links": {
+        "landing": "https://pla.esac.esa.int/",
+        "papers": [
+          {
+            "label": "Planck 2018 results VI: cosmological parameters",
+            "url": "https://arxiv.org/abs/1807.06209"
+          }
+        ],
+        "files": [],
+        "distribution": null
+      },
+      "licence": "Number quoted from the paper",
+      "acknowledgement": null,
+      "files": []
+    },
+    {
+      "id": "des-v25-offset-inventory",
+      "kind": "published_value",
+      "name": "DES-SN5YR vs Pantheon+ offset inventory (Vincenzi et al. 2025)",
+      "survey": "DES",
+      "release": "SN5YR (2024) comparison",
+      "role": "reference_value",
+      "role_label": "published value, taken as printed",
+      "used_for": [
+        "C9"
+      ],
+      "value": null,
+      "note": "Offset inventory the paper quotes in Section 4.",
+      "coverage": null,
+      "links": {
+        "landing": "https://arxiv.org/abs/2501.06664",
+        "papers": [
+          {
+            "label": "Vincenzi et al. 2025, Comparing the DES-SN5YR and Pantheon+ SN cosmology analyses",
+            "url": "https://arxiv.org/abs/2501.06664"
+          }
+        ],
+        "files": [],
+        "distribution": null
+      },
+      "licence": "Number quoted from the paper",
+      "acknowledgement": null,
+      "files": []
+    }
+  ]
+}

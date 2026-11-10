@@ -1,0 +1,6 @@
+spot check pantheon_hd: max |grid - sn.Sample.chi2| over 20 random points = 1.82e-05
+spot check des5y_hel: max |grid - sn.Sample.chi2| over 20 random points = 3.10e-05
+spot check des5y_shift_survey_hd: max |grid - sn.Sample.chi2| over 20 random points = 3.99e-05
+spot check dovekie_hd: max |grid - sn.Sample.chi2| over 20 random points = 2.49e-05
+spot check bao_dr1_primary: max |grid - sn.bao_m2lnL| = 8.31e-07
+grid (161, 151, 241), 14 arrays

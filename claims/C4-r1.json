@@ -1,0 +1,11 @@
+{
+ "id": "C4",
+ "kind": "stat",
+ "location": "l.280, 289-290; abstract l.92-93",
+ "method": "Conversions per conventions.json sigma_statements from our and the printed Delta chi2",
+ "text": "Significance statements: DES5Y LCDM Omega_m is ~2.2 sigma above Planck; Planck LCDM is disfavoured by DES5Y 'at roughly 3 sigma' (abstract: 'discrepant ... at about the 3 sigma level'); evolving dark energy is preferred over the DES5Y LCDM fit at ~2 sigma.",
+ "rests_on": "The abstract's 3 sigma statement",
+ "revision": 1,
+ "version": 3,
+ "committed_before_run": true
+}

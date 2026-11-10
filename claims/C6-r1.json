@@ -1,0 +1,11 @@
+{
+ "id": "C6",
+ "kind": "numeric",
+ "location": "l.340-353, 388-393, Table 1 (l.519-528), Fig. 4",
+ "method": "Cross-match of the public catalogues (conventions.json common_sn)",
+ "text": "Common SN: 145 of the 203 DES Y3 SN in Pantheon+ are in DES5Y, <m_Pan - m_DES> = -0.012, dispersion 0.067; 118 of 150 Foundation SN, -0.051 +- 0.007 (Table 1: -0.0508 +- 0.0007); Table 1 per sample (N, z_median, mean +- error) and all low z: 187 SN, -0.0482 +- 0.0057, so the low-z SN are offset by ~0.04 mag relative to the DES SN.",
+ "rests_on": "The abstract's '~0.04 mag offset between low and high redshifts', the paper's central observation",
+ "revision": 1,
+ "version": 3,
+ "committed_before_run": true
+}

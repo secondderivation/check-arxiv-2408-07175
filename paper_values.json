@@ -1,0 +1,419 @@
+{
+ "_source": "Parsed from src-v3/SNpaper.tex (sha256 b52743a408aa...) by checks/v1_transcribe.py; printed strings kept as strings (G5). Figure legends read from renderings (source 'figure').",
+ "text": {
+  "abstract.sigma_DES5Y": {
+   "value": "3.9",
+   "line": 88,
+   "printed": "3.9 \\sigma",
+   "meaning": "DESI24 evidence for evolving DE with DES5Y (quoted, ~)"
+  },
+  "abstract.sigma_PantheonPlus": {
+   "value": "2.5",
+   "line": 89,
+   "printed": "2.5 \\sigma",
+   "meaning": "DESI24 evidence with Pantheon+ (quoted, ~)"
+  },
+  "abstract.DES5Y_vs_Planck_sigma": {
+   "value": "3",
+   "line": 93,
+   "printed": "$3\\sigma$",
+   "meaning": "DES5Y discrepant with Planck LCDM 'at about'"
+  },
+  "abstract.offset_mag": {
+   "value": "0.04",
+   "line": 97,
+   "printed": "0.04$ mag",
+   "meaning": "offset between low and high z for common SN (~)"
+  },
+  "intro.w_Planck2018": {
+   "value": "-1.028 +- 0.031",
+   "line": 133,
+   "printed": "$w=-1.028 \\pm 0.031$",
+   "meaning": "Planck 2018 constant w (CMB+BAO+Pantheon)"
+  },
+  "intro.w_DESI24": {
+   "value": "-0.997 +- 0.025",
+   "line": 139,
+   "printed": "$w = - 0.997 \\pm",
+   "meaning": "DESI24 constant w (with l.140 '0.025')"
+  },
+  "intro.DESI24_sigma": {
+   "value": "2.5, 3.5, 3.9",
+   "line": 167,
+   "printed": "$\\sim 2.5\\sigma$, $3.5\\sigma$ and $3.9 \\sigma$",
+   "meaning": "Pantheon+, Union3, DES5Y"
+  },
+  "intro.DESI24_SDSS_sigma": {
+   "value": "2.2, 3.1, 3.5",
+   "line": 168,
+   "printed": "$\\sim 2.2 \\sigma$, $3.1\\sigma$",
+   "meaning": "with DESI+SDSS BAO (3.5 on l.168)"
+  },
+  "sec2.PantheonPlus_DES_Y3": {
+   "value": "203",
+   "line": 198,
+   "printed": "$203$",
+   "meaning": "DES Y3 spectroscopic SN in Pantheon+"
+  },
+  "fig1.retained": {
+   "value": "1417, 1754",
+   "line": 208,
+   "printed": "$1417$ and $1754$",
+   "meaning": "SN retained in Pantheon+ and DES5Y fits"
+  },
+  "sec2.DES5Y_DES_count": {
+   "value": "1635; 0.0596-1.12",
+   "line": 232,
+   "printed": "$1635$ DES SN spanning the redshift range $0.0596$ to $1.12$",
+   "meaning": "DES SN in DES5Y"
+  },
+  "sec2.DES5Y_lowz_count": {
+   "value": "194",
+   "line": 232,
+   "printed": "$194$ SN at redshifts $z<0.1$",
+   "meaning": "low-z SN in DES5Y"
+  },
+  "eq2.calibration": {
+   "value": "19.33",
+   "line": 240,
+   "printed": "m_{\\rm DES} = \\mu_{\\rm DES} - 19.33",
+   "meaning": "m_DES = mu_DES - 19.33"
+  },
+  "sec2.zcut": {
+   "value": "0.02 <= zHD <= 1.2",
+   "line": 257,
+   "printed": "$0.02 \\le z_{\\rm HD} \\le 1.2$",
+   "meaning": "redshift range, both samples"
+  },
+  "sec2.dm_cut": {
+   "value": "1",
+   "line": 257,
+   "printed": "$\\delta m >1$",
+   "meaning": "DES5Y SN removed with magnitude error > 1"
+  },
+  "sec2.PantheonPlus_total": {
+   "value": "1701",
+   "line": 259,
+   "printed": "$1701$",
+   "meaning": "Pantheon+ entries in total"
+  },
+  "sec2.DES5Y_total": {
+   "value": "1829",
+   "line": 259,
+   "printed": "out of a total of 1829",
+   "meaning": "DES5Y SN in total"
+  },
+  "sec2.Planck_Omega_m": {
+   "value": "0.3135 +- 0.0081",
+   "line": 259,
+   "printed": "$\\Omega_m = 0.3135 \\pm 0.0081$",
+   "meaning": "Planck LCDM (CamSpec 12.5cln TTTEEE, footnote l.244)"
+  },
+  "sec2.chi2_Planck_PantheonPlus": {
+   "value": "1259.6",
+   "line": 259,
+   "printed": "$1259.6$",
+   "meaning": "chi2 of Planck LCDM, Pantheon+"
+  },
+  "sec2.chi2_Planck_DES5Y": {
+   "value": "1644.68",
+   "line": 260,
+   "printed": "$1644.68$",
+   "meaning": "chi2 of Planck LCDM, DES5Y"
+  },
+  "sec2.PantheonPlus_LCDM_Omega_m": {
+   "value": "0.333 +- 0.018",
+   "line": 266,
+   "printed": "$\\Omega_m = 0.333 \\pm 0.018$",
+   "meaning": "Pantheon+ LCDM 'best fit'"
+  },
+  "sec2.PantheonPlus_dchi2_vs_Planck": {
+   "value": "1.2",
+   "line": 270,
+   "printed": "$\\Delta \\chi^2 = 1.2$",
+   "meaning": "improvement of Pantheon+ LCDM fit over Planck LCDM"
+  },
+  "sec2.DES5Y_LCDM_Omega_m": {
+   "value": "0.354 +- 0.017",
+   "line": 279,
+   "printed": "$\\Omega_m = 0.354\\pm 0.017 $",
+   "meaning": "DES5Y LCDM 'best fit'"
+  },
+  "sec2.DES5Y_Omega_m_sigma": {
+   "value": "2.2",
+   "line": 280,
+   "printed": "$\\sim 2.2\\sigma$",
+   "meaning": "DES5Y Omega_m above Planck"
+  },
+  "sec2.DES5Y_dchi2_LCDM_vs_Planck": {
+   "value": "5.1",
+   "line": 281,
+   "printed": "$\\Delta \\chi^2 = 5.1$",
+   "meaning": "DES5Y LCDM fit over Planck LCDM"
+  },
+  "sec2.DES5Y_dchi2_w0wa_vs_Planck": {
+   "value": "12.5",
+   "line": 286,
+   "printed": "\\chi^2 = 12.5$",
+   "meaning": "DES5Y w0wa fit over Planck LCDM"
+  },
+  "sec2.DES5Y_dchi2_w0wa_vs_LCDM": {
+   "value": "7.4",
+   "line": 287,
+   "printed": "\\chi^2 = 7.4$",
+   "meaning": "DES5Y w0wa fit over DES5Y LCDM"
+  },
+  "sec2.Planck_disfavoured_sigma": {
+   "value": "3",
+   "line": 289,
+   "printed": "roughly $3\\sigma$",
+   "meaning": "Planck LCDM disfavoured by DES5Y"
+  },
+  "sec2.evolving_preferred_sigma": {
+   "value": "2",
+   "line": 290,
+   "printed": "$\\sim 2 \\sigma$",
+   "meaning": "w0wa preferred over DES5Y LCDM"
+  },
+  "fig2.prior_PantheonPlus": {
+   "value": "Omega_m [0.2,0.6], w0 [-1.4,0.4], wa [-4,-0.4]",
+   "line": 300,
+   "printed": "$0.2 \\le",
+   "meaning": "printed uniform priors, Pantheon+ (l.300-301)"
+  },
+  "fig2.prior_DES5Y": {
+   "value": "Omega_m [0.01,0.81], w0 [-2,1], wa [-10,1]",
+   "line": 302,
+   "printed": "DES5Y, $0.01 \\le \\Omega_m \\le 0.81$, $-2 \\le w_0 \\le 1$, $-10 \\le w_a",
+   "meaning": "printed uniform priors, DES5Y (l.302-303)"
+  },
+  "fig2.H0_prior": {
+   "value": "67.44 +- 0.58",
+   "line": 304,
+   "printed": "$67.44 \\pm 0.58",
+   "meaning": "Gaussian Planck prior on H0 (km/s/Mpc)"
+  },
+  "sec3.DES_common": {
+   "value": "145",
+   "line": 341,
+   "printed": "$145$",
+   "meaning": "of the 203 DES Y3 SN, contained in DES5Y"
+  },
+  "sec3.DES_mean": {
+   "value": "-0.012",
+   "line": 352,
+   "printed": "= -0.012 \\ {\\rm mag}",
+   "meaning": "<m_Pan - m_DES>, DES SN in common"
+  },
+  "sec3.DES_dispersion": {
+   "value": "0.067",
+   "line": 353,
+   "printed": "$0.067$ mag",
+   "meaning": "dispersion around the mean, DES SN in common"
+  },
+  "sec3.FOUND_in_PantheonPlus": {
+   "value": "150",
+   "line": 389,
+   "printed": "150 SN from the Foundation Survey",
+   "meaning": "Foundation SN in Pantheon+"
+  },
+  "sec3.FOUND_common": {
+   "value": "118",
+   "line": 389,
+   "printed": "$118$",
+   "meaning": "of these also in DES5Y"
+  },
+  "sec3.FOUND_mean": {
+   "value": "-0.051 +- 0.007",
+   "line": 391,
+   "printed": "= -0.051 \\pm 0.007 \\ {\\rm mag}",
+   "meaning": "<m_Pan - m_DES>, Foundation, equal weight"
+  },
+  "sec3.CfA_CSP_counts": {
+   "value": "68 CfA; 8 CSP, 7 in Pantheon+",
+   "line": 391,
+   "printed": "includes 68 SN from the Center for Astrophysics",
+   "meaning": "low-z composition of DES5Y (l.391-392)"
+  },
+  "sec3.lowz_offset_range": {
+   "value": "0.04-0.05",
+   "line": 392,
+   "printed": "$\\sim 0.04 -  0.05$ mag.",
+   "meaning": "most low-z surveys offset relative to DES SN"
+  },
+  "fig4.CfA4P3": {
+   "value": "0.028 +- 0.087",
+   "line": 379,
+   "printed": "$0.028 \\pm 0.087$",
+   "meaning": "CfA4P3, 3 SN (caption); table prints (0.029)"
+  },
+  "sec3.shift": {
+   "value": "0.04",
+   "line": 414,
+   "printed": "subtracted 0.04 mag. from the low redshift sub-samples",
+   "meaning": "shift applied to DES5Y low-z sub-samples"
+  },
+  "sec3.shift_dchi2_w0wa": {
+   "value": "2.5",
+   "line": 419,
+   "printed": "of 2.5",
+   "meaning": "chi2 reduction from w0, wa after the shift"
+  },
+  "sec4.V25_offset": {
+   "value": "-0.042",
+   "line": 471,
+   "printed": "= -0.042$ mag",
+   "meaning": "V25 relative offset"
+  },
+  "sec4.V25_selection": {
+   "value": "-0.016",
+   "line": 475,
+   "printed": "$-0.016$ mag",
+   "meaning": "V25 selection-function part"
+  },
+  "sec4.V25_remaining": {
+   "value": "-0.026",
+   "line": 477,
+   "printed": "$-0.026$ mag",
+   "meaning": "remaining after selection"
+  },
+  "sec4.V25_scatter": {
+   "value": "-0.008",
+   "line": 477,
+   "printed": "$-0.008$ mag",
+   "meaning": "intrinsic-scatter model part"
+  },
+  "sec4.V25_mass": {
+   "value": "-0.010",
+   "line": 478,
+   "printed": "$-0.010$  mag",
+   "meaning": "host-mass part"
+  },
+  "sec4.V25_unexplained": {
+   "value": "-0.008",
+   "line": 479,
+   "printed": "$-0.008$ mag. unexplained",
+   "meaning": "unexplained"
+  },
+  "sec4.V25_BBC_appendix": {
+   "value": "0.01",
+   "line": 479,
+   "printed": "$\\sim 0.01$ mag",
+   "meaning": "V25 appendix: BBC update, low vs high z in full Pantheon+"
+  },
+  "fig6.bias_offset": {
+   "value": "0.016",
+   "line": 459,
+   "printed": "$m_{\\rm bias} = 0.016$",
+   "meaning": "dashed line, lower left panel of Fig. 6"
+  },
+  "appA.rd_prior": {
+   "value": "147.31 +- 0.31",
+   "line": 650,
+   "printed": "$r_d =147.31 \\pm 0.31",
+   "meaning": "Gaussian Planck prior on r_d (Mpc) for DESI BAO"
+  },
+  "appA.DESI_Planck_Omega_m": {
+   "value": "0.0344 +0.032 -0.027",
+   "line": 657,
+   "printed": "$\\Omega_m = 0.0344 ^{+0.032}_{-0.027}$",
+   "meaning": "DESI BAO + Planck, w0wa, as printed"
+  }
+ },
+ "table1": {
+  "DES5Y": {
+   "N": "145",
+   "z_median": "0.329",
+   "mean": "-0.0122",
+   "error": "0.0006",
+   "line": 521
+  },
+  "FOUND": {
+   "N": "118",
+   "z_median": "0.043",
+   "mean": "-0.0508",
+   "error": "0.0007",
+   "line": 522
+  },
+  "CFA3S": {
+   "N": "14",
+   "z_median": "0.037",
+   "mean": "-0.0344",
+   "error": "0.0111",
+   "line": 523
+  },
+  "CFA3K": {
+   "N": "27",
+   "z_median": "0.033",
+   "mean": "-0.0616",
+   "error": "0.0163",
+   "line": 524
+  },
+  "CFA4P2": {
+   "N": "18",
+   "z_median": "0.038",
+   "mean": "-0.0547",
+   "error": "0.0196",
+   "line": 525
+  },
+  "CFA4P3": {
+   "N": "3",
+   "z_median": "0.033",
+   "mean": "0.029",
+   "error": null,
+   "line": 526
+  },
+  "CSP": {
+   "N": "7",
+   "z_median": "0.038",
+   "mean": "0.0036",
+   "error": "0.0207",
+   "line": 527
+  },
+  "All low z": {
+   "N": "187",
+   "z_median": "0.038",
+   "mean": "-0.0482",
+   "error": "0.0057",
+   "line": 528
+  }
+ },
+ "figures": {
+  "fig1_PantheonPlus": {
+   "LCDM": {
+    "Omega_m": "0.333",
+    "chi2": "1258.4"
+   },
+   "w0waCDM": {
+    "Omega_m": "0.327",
+    "w0": "-1.01",
+    "wa": "0.18",
+    "chi2": "1258.4"
+   }
+  },
+  "fig1_DES5Y": {
+   "LCDM": {
+    "Omega_m": "0.349",
+    "chi2": "1639.6"
+   },
+   "w0waCDM": {
+    "Omega_m": "0.474",
+    "w0": "-0.54",
+    "wa": "-6.56",
+    "chi2": "1632.2"
+   }
+  },
+  "fig4_DES5Y_offset": {
+   "LCDM": {
+    "Omega_m": "0.310",
+    "chi2": "1635.7"
+   },
+   "w0waCDM": {
+    "Omega_m": "0.426",
+    "w0": "-1.068",
+    "wa": "-2.63",
+    "chi2": "1633.4"
+   }
+  }
+ }
+}
