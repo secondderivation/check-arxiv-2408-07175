@@ -1,7 +1,7 @@
 cff-version: 1.2.0
 message: "Cite the original paper first. If you use this check, cite it as below."
 title: "Check of arXiv:2408.07175v3: Evolving Dark Energy or Supernovae Systematics?"
-version: "0.1.0"
+version: "0.2.0-rc3"
 authors:
   - name: "Second Derivation"
 license: BSD-3-Clause
